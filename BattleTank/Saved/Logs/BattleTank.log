@@ -1029,3 +1029,394 @@ LogInit: Object subsystem initialized
 [2017.08.07-06.45.52:954][ 80]LogSavePackage: Save=1539.60ms
 [2017.08.07-06.45.52:954][ 80]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/BattleGround_BuiltDataC4872C5E4BDD9337F9281195566808FF.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/BattleGround_BuiltData.uasset'
 [2017.08.07-06.45.52:959][ 80]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/BattleGround_BuiltData.uasset
+[2017.08.07-06.55.03:604][268]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_BP" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_BP.uasset" SILENT=true
+[2017.08.07-06.55.03:635][268]LogSavePackage: Save=26.04ms
+[2017.08.07-06.55.03:635][268]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/Tank_BP342C0088433128D3DF55C78E57F0D8BB.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_BP.uasset'
+[2017.08.07-06.55.03:638][268]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_BP.uasset
+[2017.08.07-06.55.04:459][360]BlueprintLog: New page: Compile Tank_BP
+[2017.08.07-06.55.24:232][871]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.08.07-06.55.28:289][296]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.08.07-06.55.32:703][781]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.08.07-06.55.34:264][966]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.08.07-06.55.35:599][113]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.07-06.55.35:608][113]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.07-06.55.35:608][113]PIE: New page: PIE session: BattleGround (Aug 6, 2017, 10:55:35 PM)
+[2017.08.07-06.55.35:608][113]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BattleGround
+[2017.08.07-06.55.35:656][113]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047719s)
+[2017.08.07-06.55.35:656][113]LogAIModule: Creating AISystem for world BattleGround
+[2017.08.07-06.55.35:657][113]LogPlayLevel: PIE: World Init took: (0.000571s)
+[2017.08.07-06.55.35:657][113]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BattleGround.BattleGround to /Game/UEDPIE_0_BattleGround.BattleGround (0.048637s)
+[2017.08.07-06.55.35:672][113]LogInit: XAudio2 using 'Speakers (Logitech G633 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.08.07-06.55.35:682][113]LogInit: FAudioDevice initialized.
+[2017.08.07-06.55.35:711][113]LogLoad: Game class is 'GameModeBase'
+[2017.08.07-06.55.35:713][113]LogWorld: Bringing World /Game/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2017.08.07-02.55.35
+[2017.08.07-06.55.35:714][113]LogWorld: Bringing up level for play took: 0.002311
+[2017.08.07-06.55.35:715][113]PIE: Info Play in editor start time for /Game/UEDPIE_0_BattleGround -0.257
+[2017.08.07-06.55.53:628][197]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.08.07-06.55.54:937][352]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.08.07-06.55.58:109][729]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.08.07-06.56.09:251][ 58]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.08.07-06.56.12:119][400]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.07-06.56.12:128][400]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.07-06.56.12:128][400]PIE: New page: PIE session: BattleGround (Aug 6, 2017, 10:56:12 PM)
+[2017.08.07-06.56.12:128][400]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BattleGround
+[2017.08.07-06.56.12:177][400]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047642s)
+[2017.08.07-06.56.12:177][400]LogAIModule: Creating AISystem for world BattleGround
+[2017.08.07-06.56.12:177][400]LogPlayLevel: PIE: World Init took: (0.000520s)
+[2017.08.07-06.56.12:177][400]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BattleGround.BattleGround to /Game/UEDPIE_0_BattleGround.BattleGround (0.048496s)
+[2017.08.07-06.56.12:193][400]LogInit: XAudio2 using 'Speakers (Logitech G633 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.08.07-06.56.12:202][400]LogInit: FAudioDevice initialized.
+[2017.08.07-06.56.12:228][400]LogLoad: Game class is 'GameModeBase'
+[2017.08.07-06.56.12:230][400]LogWorld: Bringing World /Game/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2017.08.07-02.56.12
+[2017.08.07-06.56.12:231][400]LogWorld: Bringing up level for play took: 0.002241
+[2017.08.07-06.56.12:231][400]PIE: Info Play in editor start time for /Game/UEDPIE_0_BattleGround 0.26
+[2017.08.07-06.56.18:623][891]LogEditorViewport: Clicking on Actor (LMB): Tank_BP_C (Tank_BP)
+[2017.08.07-06.56.22:897][390]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.07-06.56.22:907][390]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.07-06.56.22:907][390]PIE: New page: PIE session: BattleGround (Aug 6, 2017, 10:56:22 PM)
+[2017.08.07-06.56.22:907][390]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BattleGround
+[2017.08.07-06.56.22:955][390]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048203s)
+[2017.08.07-06.56.22:956][390]LogAIModule: Creating AISystem for world BattleGround
+[2017.08.07-06.56.22:956][390]LogPlayLevel: PIE: World Init took: (0.000571s)
+[2017.08.07-06.56.22:956][390]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BattleGround.BattleGround to /Game/UEDPIE_0_BattleGround.BattleGround (0.049114s)
+[2017.08.07-06.56.22:968][390]LogInit: XAudio2 using 'Speakers (Logitech G633 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.08.07-06.56.22:977][390]LogInit: FAudioDevice initialized.
+[2017.08.07-06.56.23:008][390]LogLoad: Game class is 'GameModeBase'
+[2017.08.07-06.56.23:011][390]LogWorld: Bringing World /Game/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2017.08.07-02.56.23
+[2017.08.07-06.56.23:012][390]LogWorld: Bringing up level for play took: 0.002443
+[2017.08.07-06.56.23:012][390]PIE: Info Play in editor start time for /Game/UEDPIE_0_BattleGround 1.041
+[2017.08.07-06.57.30:583][448]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.08.07-06.57.34:096][825]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.08.07-06.57.35:199][955]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.07-06.57.35:209][955]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.07-06.57.35:209][955]PIE: New page: PIE session: BattleGround (Aug 6, 2017, 10:57:35 PM)
+[2017.08.07-06.57.35:209][955]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BattleGround
+[2017.08.07-06.57.35:257][955]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047263s)
+[2017.08.07-06.57.35:258][955]LogAIModule: Creating AISystem for world BattleGround
+[2017.08.07-06.57.35:258][955]LogPlayLevel: PIE: World Init took: (0.000602s)
+[2017.08.07-06.57.35:258][955]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BattleGround.BattleGround to /Game/UEDPIE_0_BattleGround.BattleGround (0.048231s)
+[2017.08.07-06.57.35:272][955]LogInit: XAudio2 using 'Speakers (Logitech G633 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.08.07-06.57.35:281][955]LogInit: FAudioDevice initialized.
+[2017.08.07-06.57.35:313][955]LogLoad: Game class is 'GameModeBase'
+[2017.08.07-06.57.35:315][955]LogWorld: Bringing World /Game/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2017.08.07-02.57.35
+[2017.08.07-06.57.35:316][955]LogWorld: Bringing up level for play took: 0.002308
+[2017.08.07-06.57.35:316][955]PIE: Info Play in editor start time for /Game/UEDPIE_0_BattleGround -0.655
+[2017.08.07-06.58.08:617][633]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.07-06.58.08:627][633]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.07-06.58.08:627][633]PIE: New page: PIE session: BattleGround (Aug 6, 2017, 10:58:08 PM)
+[2017.08.07-06.58.08:627][633]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BattleGround
+[2017.08.07-06.58.08:675][633]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048428s)
+[2017.08.07-06.58.08:676][633]LogAIModule: Creating AISystem for world BattleGround
+[2017.08.07-06.58.08:676][633]LogPlayLevel: PIE: World Init took: (0.000580s)
+[2017.08.07-06.58.08:676][633]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BattleGround.BattleGround to /Game/UEDPIE_0_BattleGround.BattleGround (0.049372s)
+[2017.08.07-06.58.08:691][633]LogInit: XAudio2 using 'Speakers (Logitech G633 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.08.07-06.58.08:700][633]LogInit: FAudioDevice initialized.
+[2017.08.07-06.58.08:733][633]LogLoad: Game class is 'GameModeBase'
+[2017.08.07-06.58.08:735][633]LogWorld: Bringing World /Game/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2017.08.07-02.58.08
+[2017.08.07-06.58.08:736][633]LogWorld: Bringing up level for play took: 0.002280
+[2017.08.07-06.58.08:736][633]PIE: Info Play in editor start time for /Game/UEDPIE_0_BattleGround 0.765
+[2017.08.07-06.58.16:551][496]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.08.07-06.58.19:761][867]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.08.07-06.58.22:828][206]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.08.07-06.58.23:978][332]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.07-06.58.23:987][332]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.07-06.58.23:987][332]PIE: New page: PIE session: BattleGround (Aug 6, 2017, 10:58:23 PM)
+[2017.08.07-06.58.23:988][332]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BattleGround
+[2017.08.07-06.58.24:035][332]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047816s)
+[2017.08.07-06.58.24:036][332]LogAIModule: Creating AISystem for world BattleGround
+[2017.08.07-06.58.24:036][332]LogPlayLevel: PIE: World Init took: (0.000636s)
+[2017.08.07-06.58.24:036][332]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BattleGround.BattleGround to /Game/UEDPIE_0_BattleGround.BattleGround (0.048804s)
+[2017.08.07-06.58.24:047][332]LogInit: XAudio2 using 'Speakers (Logitech G633 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.08.07-06.58.24:056][332]LogInit: FAudioDevice initialized.
+[2017.08.07-06.58.24:085][332]LogLoad: Game class is 'GameModeBase'
+[2017.08.07-06.58.24:087][332]LogWorld: Bringing World /Game/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2017.08.07-02.58.24
+[2017.08.07-06.58.24:088][332]LogWorld: Bringing up level for play took: 0.002250
+[2017.08.07-06.58.24:088][332]PIE: Info Play in editor start time for /Game/UEDPIE_0_BattleGround 0.117
+[2017.08.07-06.58.32:225][269]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.08.07-06.58.34:595][499]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.08.07-06.58.35:874][650]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.08.07-06.58.36:811][760]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.07-06.58.36:821][760]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.07-06.58.36:821][760]PIE: New page: PIE session: BattleGround (Aug 6, 2017, 10:58:36 PM)
+[2017.08.07-06.58.36:821][760]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BattleGround
+[2017.08.07-06.58.36:870][760]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048981s)
+[2017.08.07-06.58.36:871][760]LogAIModule: Creating AISystem for world BattleGround
+[2017.08.07-06.58.36:871][760]LogPlayLevel: PIE: World Init took: (0.000537s)
+[2017.08.07-06.58.36:871][760]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BattleGround.BattleGround to /Game/UEDPIE_0_BattleGround.BattleGround (0.049835s)
+[2017.08.07-06.58.36:882][760]LogInit: XAudio2 using 'Speakers (Logitech G633 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.08.07-06.58.36:891][760]LogInit: FAudioDevice initialized.
+[2017.08.07-06.58.36:919][760]LogLoad: Game class is 'GameModeBase'
+[2017.08.07-06.58.36:922][760]LogWorld: Bringing World /Game/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2017.08.07-02.58.36
+[2017.08.07-06.58.36:922][760]LogWorld: Bringing up level for play took: 0.002286
+[2017.08.07-06.58.36:923][760]PIE: Info Play in editor start time for /Game/UEDPIE_0_BattleGround 0.951
+[2017.08.07-06.58.40:392][164]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.08.07-06.58.44:039][596]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.08.07-06.58.45:871][793]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.07-06.58.45:880][793]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.07-06.58.45:880][793]PIE: New page: PIE session: BattleGround (Aug 6, 2017, 10:58:45 PM)
+[2017.08.07-06.58.45:880][793]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BattleGround
+[2017.08.07-06.58.45:928][793]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047166s)
+[2017.08.07-06.58.45:928][793]LogAIModule: Creating AISystem for world BattleGround
+[2017.08.07-06.58.45:928][793]LogPlayLevel: PIE: World Init took: (0.000500s)
+[2017.08.07-06.58.45:929][793]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BattleGround.BattleGround to /Game/UEDPIE_0_BattleGround.BattleGround (0.048001s)
+[2017.08.07-06.58.45:942][793]LogInit: XAudio2 using 'Speakers (Logitech G633 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.08.07-06.58.45:951][793]LogInit: FAudioDevice initialized.
+[2017.08.07-06.58.45:979][793]LogLoad: Game class is 'GameModeBase'
+[2017.08.07-06.58.45:982][793]LogWorld: Bringing World /Game/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2017.08.07-02.58.45
+[2017.08.07-06.58.45:982][793]LogWorld: Bringing up level for play took: 0.002270
+[2017.08.07-06.58.45:983][793]PIE: Info Play in editor start time for /Game/UEDPIE_0_BattleGround 0.012
+[2017.08.07-06.59.47:481][772]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BattleGround" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/Autosaves/Game/BattleGround_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.08.07-06.59.48:145][772]LogSavePackage: Save=631.34ms
+[2017.08.07-06.59.48:145][772]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/BattleGround_Auto2E9A8A4DE4FB666758ED433BEA5A15ECE.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/Autosaves/Game/BattleGround_Auto2.umap'
+[2017.08.07-06.59.48:149][772]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/Autosaves/Game/BattleGround_Auto2.umap
+[2017.08.07-06.59.48:150][772]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/BattleGround' took 0.681
+[2017.08.07-06.59.48:150][772]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.681
+[2017.08.07-07.00.24:492][443]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.08.07-07.00.38:390][ 38]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BattleTankGameMode_BP" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/BattleTankGameMode_BP.uasset" SILENT=true
+[2017.08.07-07.00.38:398][ 38]LogSavePackage: Save=6.85ms
+[2017.08.07-07.00.38:398][ 38]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/BattleTankGameMode_BPA83E5D7742994ADFC151F1B2B601EFE9.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/BattleTankGameMode_BP.uasset'
+[2017.08.07-07.00.38:400][ 38]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/BattleTankGameMode_BP.uasset
+[2017.08.07-07.19.38:214][ 67]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.BattleTank
+[2017.08.07-07.19.38:214][ 67]LogTemp: CWD: D:\Program Files (x86)\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.08.07-07.19.38:214][ 67]LogTemp: Initial Dir: D:\Program Files (x86)\UE_4.16
+[2017.08.07-07.19.38:214][ 67]LogTemp: Env CWD: D:\Program Files (x86)\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.08.07-07.19.38:214][ 67]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.08.07-07.19.38:245][ 68]LogTemp: BranchPath = DESKTOP-UIA5L5T/D/Program Files (x86)/UE_4.16/Engine/Binaries --- GameBranchPath = DESKTOP-UIA5L5T/D/Program Files (x86)/UE_4.16/Engine/Binaries
+[2017.08.07-07.19.38:245][ 68]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Tobyn\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.08.07-07.19.43:044][629]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.08.07-07.19.51:807][648]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.07-07.19.51:826][648]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.07-07.19.51:826][648]PIE: New page: PIE session: BattleGround (Aug 6, 2017, 11:19:51 PM)
+[2017.08.07-07.19.51:827][648]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BattleGround
+[2017.08.07-07.19.51:874][648]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047914s)
+[2017.08.07-07.19.51:875][648]LogAIModule: Creating AISystem for world BattleGround
+[2017.08.07-07.19.51:875][648]LogPlayLevel: PIE: World Init took: (0.000596s)
+[2017.08.07-07.19.51:875][648]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BattleGround.BattleGround to /Game/UEDPIE_0_BattleGround.BattleGround (0.048855s)
+[2017.08.07-07.19.51:890][648]LogInit: XAudio2 using 'Speakers (Logitech G633 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.08.07-07.19.51:900][648]LogInit: FAudioDevice initialized.
+[2017.08.07-07.19.51:930][648]LogLoad: Game class is 'BattleTankGameMode_BP_C'
+[2017.08.07-07.19.51:933][648]LogWorld: Bringing World /Game/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2017.08.07-03.19.51
+[2017.08.07-07.19.51:933][648]LogWorld: Bringing up level for play took: 0.002461
+[2017.08.07-07.19.52:228][648]PIE: Info Play in editor start time for /Game/UEDPIE_0_BattleGround 0.257
+[2017.08.07-07.20.07:520][450]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape5)
+[2017.08.07-07.20.11:456][917]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.08.07-07.20.12:326][ 18]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.07-07.20.12:336][ 18]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.07-07.20.12:336][ 18]PIE: New page: PIE session: BattleGround (Aug 6, 2017, 11:20:12 PM)
+[2017.08.07-07.20.12:336][ 18]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BattleGround
+[2017.08.07-07.20.12:384][ 18]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047851s)
+[2017.08.07-07.20.12:384][ 18]LogAIModule: Creating AISystem for world BattleGround
+[2017.08.07-07.20.12:385][ 18]LogPlayLevel: PIE: World Init took: (0.000541s)
+[2017.08.07-07.20.12:385][ 18]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BattleGround.BattleGround to /Game/UEDPIE_0_BattleGround.BattleGround (0.048739s)
+[2017.08.07-07.20.12:396][ 18]LogInit: XAudio2 using 'Speakers (Logitech G633 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.08.07-07.20.12:405][ 18]LogInit: FAudioDevice initialized.
+[2017.08.07-07.20.12:435][ 18]LogLoad: Game class is 'BattleTankGameMode_BP_C'
+[2017.08.07-07.20.12:438][ 18]LogWorld: Bringing World /Game/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2017.08.07-03.20.12
+[2017.08.07-07.20.12:438][ 18]LogWorld: Bringing up level for play took: 0.002248
+[2017.08.07-07.20.12:440][ 18]PIE: Info Play in editor start time for /Game/UEDPIE_0_BattleGround 0.469
+[2017.08.07-07.20.42:516][335]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_BP" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_BP.uasset" SILENT=true
+[2017.08.07-07.20.42:547][335]LogSavePackage: Save=25.45ms
+[2017.08.07-07.20.42:547][335]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/Tank_BPA992D4904E90E0E2E98B89A491D24F1E.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_BP.uasset'
+[2017.08.07-07.20.42:551][335]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_BP.uasset
+[2017.08.07-07.20.43:081][393]BlueprintLog: New page: Compile Tank_BP
+[2017.08.07-07.20.45:422][646]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.07-07.20.45:432][646]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.07-07.20.45:432][646]PIE: New page: PIE session: BattleGround (Aug 6, 2017, 11:20:45 PM)
+[2017.08.07-07.20.45:432][646]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BattleGround
+[2017.08.07-07.20.45:481][646]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048967s)
+[2017.08.07-07.20.45:482][646]LogAIModule: Creating AISystem for world BattleGround
+[2017.08.07-07.20.45:482][646]LogPlayLevel: PIE: World Init took: (0.000512s)
+[2017.08.07-07.20.45:482][646]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BattleGround.BattleGround to /Game/UEDPIE_0_BattleGround.BattleGround (0.049832s)
+[2017.08.07-07.20.45:498][646]LogInit: XAudio2 using 'Speakers (Logitech G633 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.08.07-07.20.45:507][646]LogInit: FAudioDevice initialized.
+[2017.08.07-07.20.45:538][646]LogLoad: Game class is 'BattleTankGameMode_BP_C'
+[2017.08.07-07.20.45:540][646]LogWorld: Bringing World /Game/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2017.08.07-03.20.45
+[2017.08.07-07.20.45:541][646]LogWorld: Bringing up level for play took: 0.002416
+[2017.08.07-07.20.45:543][646]PIE: Info Play in editor start time for /Game/UEDPIE_0_BattleGround -0.429
+[2017.08.07-07.21.09:203][357]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_BP" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_BP.uasset" SILENT=true
+[2017.08.07-07.21.09:231][357]LogSavePackage: Save=26.63ms
+[2017.08.07-07.21.09:232][357]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/Tank_BP242EE1D54D656A160FD5F1BA40168B9D.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_BP.uasset'
+[2017.08.07-07.21.09:234][357]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_BP.uasset
+[2017.08.07-07.21.09:805][420]BlueprintLog: New page: Compile Tank_BP
+[2017.08.07-07.21.11:989][654]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.07-07.21.11:999][654]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.07-07.21.11:999][654]PIE: New page: PIE session: BattleGround (Aug 6, 2017, 11:21:11 PM)
+[2017.08.07-07.21.11:999][654]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BattleGround
+[2017.08.07-07.21.12:048][654]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048572s)
+[2017.08.07-07.21.12:048][654]LogAIModule: Creating AISystem for world BattleGround
+[2017.08.07-07.21.12:048][654]LogPlayLevel: PIE: World Init took: (0.000520s)
+[2017.08.07-07.21.12:048][654]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BattleGround.BattleGround to /Game/UEDPIE_0_BattleGround.BattleGround (0.049403s)
+[2017.08.07-07.21.12:060][654]LogInit: XAudio2 using 'Speakers (Logitech G633 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.08.07-07.21.12:069][654]LogInit: FAudioDevice initialized.
+[2017.08.07-07.21.12:100][654]LogLoad: Game class is 'BattleTankGameMode_BP_C'
+[2017.08.07-07.21.12:102][654]LogWorld: Bringing World /Game/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2017.08.07-03.21.12
+[2017.08.07-07.21.12:103][654]LogWorld: Bringing up level for play took: 0.002338
+[2017.08.07-07.21.12:105][654]PIE: Info Play in editor start time for /Game/UEDPIE_0_BattleGround 0.133
+[2017.08.07-07.21.41:211][239]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BattleGround" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/Autosaves/Game/BattleGround_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.08.07-07.21.41:885][239]LogSavePackage: Save=655.03ms
+[2017.08.07-07.21.41:886][239]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/BattleGround_Auto3F647F6F9498FE1CCDF52289E7DB93FE1.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/Autosaves/Game/BattleGround_Auto3.umap'
+[2017.08.07-07.21.41:887][239]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/Autosaves/Game/BattleGround_Auto3.umap
+[2017.08.07-07.21.41:890][239]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/BattleGround' took 0.690
+[2017.08.07-07.21.41:890][239]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.690
+[2017.08.07-07.23.47:821][368]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.07-07.23.47:831][368]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.07-07.23.47:831][368]PIE: New page: PIE session: BattleGround (Aug 6, 2017, 11:23:47 PM)
+[2017.08.07-07.23.47:832][368]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BattleGround
+[2017.08.07-07.23.47:880][368]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048290s)
+[2017.08.07-07.23.47:880][368]LogAIModule: Creating AISystem for world BattleGround
+[2017.08.07-07.23.47:880][368]LogPlayLevel: PIE: World Init took: (0.000529s)
+[2017.08.07-07.23.47:881][368]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BattleGround.BattleGround to /Game/UEDPIE_0_BattleGround.BattleGround (0.049195s)
+[2017.08.07-07.23.47:897][368]LogInit: XAudio2 using 'Speakers (Logitech G633 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.08.07-07.23.47:906][368]LogInit: FAudioDevice initialized.
+[2017.08.07-07.23.47:933][368]LogLoad: Game class is 'BattleTankGameMode_BP_C'
+[2017.08.07-07.23.47:936][368]LogWorld: Bringing World /Game/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2017.08.07-03.23.47
+[2017.08.07-07.23.47:936][368]LogWorld: Bringing up level for play took: 0.002298
+[2017.08.07-07.23.47:938][368]PIE: Info Play in editor start time for /Game/UEDPIE_0_BattleGround -0.033
+[2017.08.07-07.25.59:528][105]BlueprintLog: New page: Compile Tank_BP
+[2017.08.07-07.26.01:094][239]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_BP" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_BP.uasset" SILENT=true
+[2017.08.07-07.26.01:126][239]LogSavePackage: Save=27.73ms
+[2017.08.07-07.26.01:126][239]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/Tank_BPABB6979543B19432B4B3A4B6C0C8F639.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_BP.uasset'
+[2017.08.07-07.26.01:129][239]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_BP.uasset
+[2017.08.07-07.26.03:286][489]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.07-07.26.03:295][489]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.07-07.26.03:295][489]PIE: New page: PIE session: BattleGround (Aug 6, 2017, 11:26:03 PM)
+[2017.08.07-07.26.03:295][489]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BattleGround
+[2017.08.07-07.26.03:346][489]LogPlayLevel: PIE: StaticDuplicateObject took: (0.050787s)
+[2017.08.07-07.26.03:347][489]LogAIModule: Creating AISystem for world BattleGround
+[2017.08.07-07.26.03:347][489]LogPlayLevel: PIE: World Init took: (0.000609s)
+[2017.08.07-07.26.03:347][489]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BattleGround.BattleGround to /Game/UEDPIE_0_BattleGround.BattleGround (0.051801s)
+[2017.08.07-07.26.03:364][489]LogInit: XAudio2 using 'Speakers (Logitech G633 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.08.07-07.26.03:373][489]LogInit: FAudioDevice initialized.
+[2017.08.07-07.26.03:404][489]LogLoad: Game class is 'BattleTankGameMode_BP_C'
+[2017.08.07-07.26.03:407][489]LogWorld: Bringing World /Game/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2017.08.07-03.26.03
+[2017.08.07-07.26.03:407][489]LogWorld: Bringing up level for play took: 0.002337
+[2017.08.07-07.26.03:409][489]PIE: Info Play in editor start time for /Game/UEDPIE_0_BattleGround -0.562
+[2017.08.07-07.27.21:171][871]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_BP" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_BP.uasset" SILENT=true
+[2017.08.07-07.27.21:207][871]LogSavePackage: Save=33.45ms
+[2017.08.07-07.27.21:207][871]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/Tank_BP7579817F49051EADFF200D98ADE14087.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_BP.uasset'
+[2017.08.07-07.27.21:209][871]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_BP.uasset
+[2017.08.07-07.27.21:455][895]BlueprintLog: New page: Compile Tank_BP
+[2017.08.07-07.27.22:386][974]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.07-07.27.22:396][974]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.07-07.27.22:396][974]PIE: New page: PIE session: BattleGround (Aug 6, 2017, 11:27:22 PM)
+[2017.08.07-07.27.22:396][974]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BattleGround
+[2017.08.07-07.27.22:443][974]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047153s)
+[2017.08.07-07.27.22:444][974]LogAIModule: Creating AISystem for world BattleGround
+[2017.08.07-07.27.22:444][974]LogPlayLevel: PIE: World Init took: (0.000497s)
+[2017.08.07-07.27.22:444][974]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BattleGround.BattleGround to /Game/UEDPIE_0_BattleGround.BattleGround (0.047963s)
+[2017.08.07-07.27.22:456][974]LogInit: XAudio2 using 'Speakers (Logitech G633 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.08.07-07.27.22:465][974]LogInit: FAudioDevice initialized.
+[2017.08.07-07.27.22:495][974]LogLoad: Game class is 'BattleTankGameMode_BP_C'
+[2017.08.07-07.27.22:498][974]LogWorld: Bringing World /Game/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2017.08.07-03.27.22
+[2017.08.07-07.27.22:499][974]LogWorld: Bringing up level for play took: 0.002333
+[2017.08.07-07.27.22:501][974]PIE: Info Play in editor start time for /Game/UEDPIE_0_BattleGround 0.53
+[2017.08.07-07.27.25:674][321]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.07-07.27.25:683][321]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.07-07.27.25:683][321]PIE: New page: PIE session: BattleGround (Aug 6, 2017, 11:27:25 PM)
+[2017.08.07-07.27.25:684][321]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BattleGround
+[2017.08.07-07.27.25:731][321]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047310s)
+[2017.08.07-07.27.25:732][321]LogAIModule: Creating AISystem for world BattleGround
+[2017.08.07-07.27.25:732][321]LogPlayLevel: PIE: World Init took: (0.000557s)
+[2017.08.07-07.27.25:732][321]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BattleGround.BattleGround to /Game/UEDPIE_0_BattleGround.BattleGround (0.048210s)
+[2017.08.07-07.27.25:748][321]LogInit: XAudio2 using 'Speakers (Logitech G633 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.08.07-07.27.25:756][321]LogInit: FAudioDevice initialized.
+[2017.08.07-07.27.25:790][321]LogLoad: Game class is 'BattleTankGameMode_BP_C'
+[2017.08.07-07.27.25:793][321]LogWorld: Bringing World /Game/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2017.08.07-03.27.25
+[2017.08.07-07.27.25:793][321]LogWorld: Bringing up level for play took: 0.002377
+[2017.08.07-07.27.25:795][321]PIE: Info Play in editor start time for /Game/UEDPIE_0_BattleGround -0.176
+[2017.08.07-07.27.44:262][345]LogEditorTransaction: Undo Modify Component(s)
+[2017.08.07-07.28.29:772][512]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape5)
+[2017.08.07-07.28.30:443][578]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape5)
+[2017.08.07-07.29.38:588][403]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.08.07-07.29.38:619][404]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.BattleTank
+[2017.08.07-07.29.38:619][404]LogTemp: CWD: D:\Program Files (x86)\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.08.07-07.29.38:619][404]LogTemp: Initial Dir: D:\Program Files (x86)\UE_4.16
+[2017.08.07-07.29.38:619][404]LogTemp: Env CWD: D:\Program Files (x86)\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.08.07-07.29.38:619][404]LogTemp: BranchPath = DESKTOP-UIA5L5T/D/Program Files (x86)/UE_4.16/Engine/Binaries --- GameBranchPath = DESKTOP-UIA5L5T/D/Program Files (x86)/UE_4.16/Engine/Binaries
+[2017.08.07-07.29.38:619][404]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Tobyn\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.08.07-07.33.45:598][393]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_BP" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_BP.uasset" SILENT=true
+[2017.08.07-07.33.45:637][393]LogSavePackage: Save=34.36ms
+[2017.08.07-07.33.45:637][393]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/Tank_BP996133D54831F125DB51F9980F9FE158.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_BP.uasset'
+[2017.08.07-07.33.45:640][393]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_BP.uasset
+[2017.08.07-07.33.46:076][438]BlueprintLog: New page: Compile Tank_BP
+[2017.08.07-07.33.50:635][917]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.07-07.33.50:646][917]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.07-07.33.50:646][917]PIE: New page: PIE session: BattleGround (Aug 6, 2017, 11:33:50 PM)
+[2017.08.07-07.33.50:646][917]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BattleGround
+[2017.08.07-07.33.50:695][917]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048803s)
+[2017.08.07-07.33.50:696][917]LogAIModule: Creating AISystem for world BattleGround
+[2017.08.07-07.33.50:696][917]LogPlayLevel: PIE: World Init took: (0.000597s)
+[2017.08.07-07.33.50:696][917]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BattleGround.BattleGround to /Game/UEDPIE_0_BattleGround.BattleGround (0.049756s)
+[2017.08.07-07.33.50:708][917]LogInit: XAudio2 using 'Speakers (Logitech G633 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.08.07-07.33.50:718][917]LogInit: FAudioDevice initialized.
+[2017.08.07-07.33.50:744][917]LogLoad: Game class is 'BattleTankGameMode_BP_C'
+[2017.08.07-07.33.50:747][917]LogWorld: Bringing World /Game/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2017.08.07-03.33.50
+[2017.08.07-07.33.50:747][917]LogWorld: Bringing up level for play took: 0.002304
+[2017.08.07-07.33.50:749][917]PIE: Info Play in editor start time for /Game/UEDPIE_0_BattleGround 0.778
+[2017.08.07-07.34.11:791][201]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_BP" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_BP.uasset" SILENT=true
+[2017.08.07-07.34.11:826][201]LogSavePackage: Save=32.43ms
+[2017.08.07-07.34.11:826][201]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/Tank_BP77861BDD43A98221FCF0C995ED1689AC.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_BP.uasset'
+[2017.08.07-07.34.11:828][201]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_BP.uasset
+[2017.08.07-07.34.12:931][328]BlueprintLog: New page: Compile Tank_BP
+[2017.08.07-07.34.15:472][622]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.07-07.34.15:481][622]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.07-07.34.15:481][622]PIE: New page: PIE session: BattleGround (Aug 6, 2017, 11:34:15 PM)
+[2017.08.07-07.34.15:481][622]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BattleGround
+[2017.08.07-07.34.15:530][622]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047836s)
+[2017.08.07-07.34.15:530][622]LogAIModule: Creating AISystem for world BattleGround
+[2017.08.07-07.34.15:530][622]LogPlayLevel: PIE: World Init took: (0.000541s)
+[2017.08.07-07.34.15:530][622]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BattleGround.BattleGround to /Game/UEDPIE_0_BattleGround.BattleGround (0.048694s)
+[2017.08.07-07.34.15:546][622]LogInit: XAudio2 using 'Speakers (Logitech G633 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.08.07-07.34.15:555][622]LogInit: FAudioDevice initialized.
+[2017.08.07-07.34.15:585][622]LogLoad: Game class is 'BattleTankGameMode_BP_C'
+[2017.08.07-07.34.15:587][622]LogWorld: Bringing World /Game/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2017.08.07-03.34.15
+[2017.08.07-07.34.15:588][622]LogWorld: Bringing up level for play took: 0.002271
+[2017.08.07-07.34.15:590][622]PIE: Info Play in editor start time for /Game/UEDPIE_0_BattleGround -0.381
+[2017.08.07-07.36.31:001][996]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_BP" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_BP.uasset" SILENT=true
+[2017.08.07-07.36.31:041][996]LogSavePackage: Save=38.29ms
+[2017.08.07-07.36.31:041][996]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/Tank_BP7017CE6349487F6FA8F1E380F1AD5537.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_BP.uasset'
+[2017.08.07-07.36.31:043][996]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_BP.uasset
+[2017.08.07-07.36.31:707][ 70]BlueprintLog: New page: Compile Tank_BP
+[2017.08.07-07.36.44:876][598]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_BP" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_BP.uasset" SILENT=true
+[2017.08.07-07.36.44:915][598]LogSavePackage: Save=36.95ms
+[2017.08.07-07.36.44:915][598]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/Tank_BPE365FBEC4E71901FC147C3802A6502D5.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_BP.uasset'
+[2017.08.07-07.36.44:917][598]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_BP.uasset
+[2017.08.07-07.36.45:426][653]BlueprintLog: New page: Compile Tank_BP
+[2017.08.07-07.36.52:862][504]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_BP" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_BP.uasset" SILENT=true
+[2017.08.07-07.36.52:902][504]LogSavePackage: Save=37.52ms
+[2017.08.07-07.36.52:902][504]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/Tank_BP226460BF4933CEEDB713C7A1A89C7791.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_BP.uasset'
+[2017.08.07-07.36.52:904][504]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_BP.uasset
+[2017.08.07-07.36.53:418][560]BlueprintLog: New page: Compile Tank_BP
+[2017.08.07-07.36.56:211][884]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.07-07.36.56:221][884]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.07-07.36.56:221][884]PIE: New page: PIE session: BattleGround (Aug 6, 2017, 11:36:56 PM)
+[2017.08.07-07.36.56:221][884]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BattleGround
+[2017.08.07-07.36.56:271][884]LogPlayLevel: PIE: StaticDuplicateObject took: (0.050016s)
+[2017.08.07-07.36.56:271][884]LogAIModule: Creating AISystem for world BattleGround
+[2017.08.07-07.36.56:272][884]LogPlayLevel: PIE: World Init took: (0.000556s)
+[2017.08.07-07.36.56:272][884]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BattleGround.BattleGround to /Game/UEDPIE_0_BattleGround.BattleGround (0.050895s)
+[2017.08.07-07.36.56:284][884]LogInit: XAudio2 using 'Speakers (Logitech G633 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.08.07-07.36.56:293][884]LogInit: FAudioDevice initialized.
+[2017.08.07-07.36.56:320][884]LogLoad: Game class is 'BattleTankGameMode_BP_C'
+[2017.08.07-07.36.56:323][884]LogWorld: Bringing World /Game/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2017.08.07-03.36.56
+[2017.08.07-07.36.56:323][884]LogWorld: Bringing up level for play took: 0.002291
+[2017.08.07-07.36.56:325][884]PIE: Info Play in editor start time for /Game/UEDPIE_0_BattleGround 0.354
+[2017.08.07-07.38.47:461][697]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BattleGround" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/Autosaves/Game/BattleGround_Auto4.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.08.07-07.38.48:120][697]LogSavePackage: Save=634.68ms
+[2017.08.07-07.38.48:120][697]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/BattleGround_Auto46DC9DEAB42E3364AD38CC598EFCA0364.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/Autosaves/Game/BattleGround_Auto4.umap'
+[2017.08.07-07.38.48:123][697]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/Autosaves/Game/BattleGround_Auto4.umap
+[2017.08.07-07.38.48:125][697]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/BattleGround' took 0.676
+[2017.08.07-07.38.48:125][697]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.676
+[2017.08.07-07.38.48:126][697]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Tank/Tank_BP] ([1] browsable assets)...
+[2017.08.07-07.38.48:135][697]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Tank/Tank_BP.Tank_BP]
+[2017.08.07-07.38.48:135][697]OBJ SavePackage: Finished generating thumbnails for package [/Game/Tank/Tank_BP]
+[2017.08.07-07.38.48:135][697]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_BP" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/Autosaves/Game/Tank/Tank_BP_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2017.08.07-07.38.48:177][697]LogSavePackage: Save=36.69ms
+[2017.08.07-07.38.48:177][697]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/Tank_BP_Auto40E5BA49F449390E9AB81B9979537CD0E.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/Autosaves/Game/Tank/Tank_BP_Auto4.uasset'
+[2017.08.07-07.38.48:178][697]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/Autosaves/Game/Tank/Tank_BP_Auto4.uasset
+[2017.08.07-07.38.48:178][697]LogFileHelpers: Auto-saving content packages took 0.052
+[2017.08.07-07.40.27:218][348]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_BP" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_BP.uasset" SILENT=true
+[2017.08.07-07.40.27:258][348]LogSavePackage: Save=37.90ms
+[2017.08.07-07.40.27:258][348]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/Tank_BP5376C9694983086DBCA17FBC06B0D540.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_BP.uasset'
+[2017.08.07-07.40.27:262][348]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_BP.uasset
+[2017.08.07-07.40.35:115][261]BlueprintLog: New page: Compile Tank_BP
