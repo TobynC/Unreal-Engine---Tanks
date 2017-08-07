@@ -1,9 +1,9 @@
-﻿Log file open, 08/06/17 15:27:20
+﻿Log file open, 08/07/17 01:48:01
 LogInit:Display: Running engine for game: BattleTank
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(949804427) SRandInit(949804427).
+LogInit:Display: RandInit(703013115) SRandInit(703013115).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 4.224012
+LogStats: Stats thread started at 0.072245
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -45,452 +45,987 @@ LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.16
-LogInit: Command line:  
+LogInit: Command line: 
 LogInit: Base directory: D:/Program Files (x86)/UE_4.16/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.08.06-19.27.21:453][  0]LogInit: Selected Device Profile: [Windows]
-[2017.08.06-19.27.21:453][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.08.06-19.27.21:516][  0]LogInit: Computer: DESKTOP-UIA5L5T
-[2017.08.06-19.27.21:516][  0]LogInit: User: Tobyn
-[2017.08.06-19.27.21:516][  0]LogInit: CPU Page size=4096, Cores=4
-[2017.08.06-19.27.21:516][  0]LogInit: High frequency timer resolution =3.914059 MHz
-[2017.08.06-19.27.21:517][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
-[2017.08.06-19.27.21:517][  0]LogMemory: Platform Memory Stats for Windows
-[2017.08.06-19.27.21:517][  0]LogMemory: Process Physical Memory: 273.23 MB used, 273.23 MB peak
-[2017.08.06-19.27.21:517][  0]LogMemory: Process Virtual Memory: 260.76 MB used, 260.76 MB peak
-[2017.08.06-19.27.21:517][  0]LogMemory: Physical Memory: 8395.14 MB used,  24292.43 MB free, 32687.58 MB total
-[2017.08.06-19.27.21:517][  0]LogMemory: Virtual Memory: 638.49 MB used,  24292.43 MB free, 134217728.00 MB total
-[2017.08.06-19.27.22:059][  0]LogInit: Using OS detected language (en-US).
-[2017.08.06-19.27.22:059][  0]LogInit: Using OS detected locale (en-US).
-[2017.08.06-19.27.22:089][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2017.08.06-19.27.24:767][  0]LogD3D11RHI: D3D11 adapters:
-[2017.08.06-19.27.25:199][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
-[2017.08.06-19.27.25:199][  0]LogD3D11RHI:       8085/0/16343 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2017.08.06-19.27.25:200][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.08.06-19.27.25:200][  0]LogD3D11RHI:       0/0/16343 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.08.06-19.27.25:200][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.08.06-19.27.25:226][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.08.06-19.27.25:234][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
-[2017.08.06-19.27.25:234][  0]LogWindows: EnumDisplayDevices:
-[2017.08.06-19.27.25:234][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
-[2017.08.06-19.27.25:234][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
-[2017.08.06-19.27.25:234][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2017.08.06-19.27.25:234][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2017.08.06-19.27.25:234][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2017.08.06-19.27.25:234][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
-[2017.08.06-19.27.25:235][  0]LogD3D11RHI:   Driver Version: 384.94 (internal:22.21.13.8494, unified:384.94)
-[2017.08.06-19.27.25:235][  0]LogD3D11RHI:      Driver Date: 7-18-2017
-[2017.08.06-19.27.25:235][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.08.06-19.27.25:656][  0]LogD3D11RHI: Async texture creation enabled
-[2017.08.06-19.27.26:123][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2017.08.06-19.27.26:240][  0]LogD3D11RHI: HDR output is supported on display 0 (NvId: 0x80061081).
-[2017.08.06-19.27.26:306][  0]LogShaderCompilers: Guid format shader working directory is -12 characters bigger than the processId version (C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Intermediate/Shaders/WorkingDirectory/11680/).
-[2017.08.06-19.27.26:306][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Tobyn/AppData/Local/Temp/UnrealShaderWorkingDir/0F763E6844B000FA931679BC45B0076E/'.
-[2017.08.06-19.27.26:310][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.08.06-19.27.29:080][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.08.06-19.27.29:107][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2017.08.06-19.27.29:134][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2017.08.06-19.27.29:161][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2017.08.06-19.27.29:224][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2017.08.06-19.27.29:249][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.08.06-19.27.29:274][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.08.06-19.27.29:301][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.08.06-19.27.29:324][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.08.06-19.27.29:351][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.08.06-19.27.29:377][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.08.06-19.27.29:402][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.08.06-19.27.29:428][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.08.06-19.27.29:453][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.08.06-19.27.29:480][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.08.06-19.27.29:533][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.08.06-19.27.29:533][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.08.06-19.27.29:552][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.08.06-19.27.29:684][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.08.06-19.27.29:701][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.08.06-19.27.29:727][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2017.08.06-19.27.29:753][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.08.06-19.27.29:779][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.08.06-19.27.29:809][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.08.06-19.27.29:809][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.08.06-19.27.30:948][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.08.06-19.27.31:095][  0]LogDerivedDataCache: Loaded boot cache 0.15s 90MB C:/Users/Tobyn/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2017.08.06-19.27.31:095][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Tobyn/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
-[2017.08.06-19.27.31:095][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.08.06-19.27.31:095][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.08.06-19.27.31:095][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.08.06-19.27.31:095][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.08.06-19.27.31:122][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.08.06-19.27.31:134][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Tobyn/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.08.06-19.27.31:182][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.08.06-19.27.31:258][  0]LogSlate: Using Freetype 2.6.0
-[2017.08.06-19.27.31:281][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.08.06-19.27.31:281][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.08.06-19.27.39:929][  0]LogInit: Selected Device Profile: [Windows]
-[2017.08.06-19.27.40:650][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.08.06-19.27.41:195][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.08.06-19.27.41:291][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.08.06-19.27.41:343][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.08.06-19.27.41:343][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2017.08.06-19.27.41:343][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.08.06-19.27.44:300][  0]LogNetVersion: BattleTank , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4114001466)
-[2017.08.06-19.27.44:632][  0]LogAssetRegistry: FAssetRegistry took 0.0414 seconds to start up
-[2017.08.06-19.27.44:685][  0]LogAssetRegistry:Error: Failed to open file for write C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Intermediate/CachedAssetRegistry.bin
-[2017.08.06-19.27.44:685][  0]LogAssetRegistry:Error: Failed to open file for write C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Intermediate/AssetRegistryCache/2657c409.bin
-[2017.08.06-19.27.44:696][  0]LogAssetRegistry:Error: Failed to open file for write C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Intermediate/AssetRegistryCache/94c5d5a7.bin
-[2017.08.06-19.27.44:703][  0]LogAssetRegistry:Error: Failed to open file for write C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Intermediate/AssetRegistryCache/8e5c79a5.bin
-[2017.08.06-19.27.44:706][  0]LogAssetRegistry:Error: Failed to open file for write C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Intermediate/AssetRegistryCache/5eb44d7c.bin
-[2017.08.06-19.27.44:708][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.059286 seconds
-[2017.08.06-19.27.44:713][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
-[2017.08.06-19.27.44:713][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
-[2017.08.06-19.27.44:713][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.08.06-19.27.44:765][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.08.06-19.27.51:242][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.08.06-19.27.51:291][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.08.06-19.27.52:274][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.08.06-19.27.52:829][  0]SourceControl: Info Source control is disabled
-[2017.08.06-19.27.52:891][  0]SourceControl: Info Source control is disabled
-[2017.08.06-19.27.52:989][  0]SourceControl: Info Source control is disabled
-[2017.08.06-19.27.53:029][  0]SourceControl: Info Source control is disabled
-[2017.08.06-19.27.54:110][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.08.06-19.27.55:009][  0]LogEngine: Initializing Engine...
-[2017.08.06-19.27.55:041][  0]LogHMD: Failed to initialize OpenVR with code 102
-[2017.08.06-19.27.55:410][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.08.06-19.27.55:411][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.08.06-19.27.55:750][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.08.06-19.27.55:858][  0]LogInit: XAudio2 using 'Speakers (Logitech G633 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
-[2017.08.06-19.27.56:936][  0]LogAudio:Error: CreateMasteringVoice error: Unhandled error code -2147221164
-[2017.08.06-19.27.56:936][  0]LogInit:Warning: Failed to create the mastering voice for XAudio2
-[2017.08.06-19.27.56:970][  0]LogDerivedDataCache: Saved boot cache 0.03s 90MB C:/Users/Tobyn/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2017.08.06-19.27.56:980][  0]LogInit: Texture streaming: Enabled
-[2017.08.06-19.27.57:029][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.08.06-19.27.57:159][  0]LogInit: Transaction tracking system initialized
-[2017.08.06-19.27.57:330][  0]BlueprintLog: New page: Editor Load
-[2017.08.06-19.27.58:505][  0]LocalizationService: Info Localization service is disabled
-[2017.08.06-19.27.59:464][  0]LogConsoleResponse:Display: 
-[2017.08.06-19.28.00:747][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/' took 0.01s
-[2017.08.06-19.28.00:747][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.08.06-19.28.00:747][  0]LogCook:Display: Mobile HDR setting 1
-[2017.08.06-19.28.02:487][  0]SourceControl: Info Source control is disabled
-[2017.08.06-19.28.02:515][  0]Cmd: MAP LOAD FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/BattleGround.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.08.06-19.28.02:523][  0]LightingResults: New page: Lighting Build
-[2017.08.06-19.28.02:694][  0]MapCheck: New page: Map Check
-[2017.08.06-19.28.02:694][  0]LightingResults: New page: Lighting Build
-[2017.08.06-19.28.03:866][  0]LogAIModule: Creating AISystem for world BattleGround
-[2017.08.06-19.28.04:708][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.08.06-19.28.04:746][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.08.06-19.28.04:793][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 47.538ms to complete.
-[2017.08.06-19.28.04:793][  0]LogFileHelpers: Loading map 'BattleGround' took 2.294
-[2017.08.06-19.28.05:944][  0]LogCollectionManager: Loaded 0 collections in 0.000686 seconds
-[2017.08.06-19.28.06:133][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/Collections/' took 0.01s
-[2017.08.06-19.28.06:133][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Developers/Tobyn/Collections/' took 0.01s
-[2017.08.06-19.28.06:133][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Collections/' took 0.01s
-[2017.08.06-19.28.06:133][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000008 seconds
-[2017.08.06-19.28.06:179][  0]LogContentBrowser: Native class hierarchy populated in 0.0425 seconds. Added 2330 classes and 493 folders.
-[2017.08.06-19.28.06:326][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
-[2017.08.06-19.28.06:658][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
-[2017.08.06-19.28.07:066][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
-[2017.08.06-19.28.07:497][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2017.08.06-19.28.07:625][  0]LogSlate: Took 0.018826 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.08.06-19.28.07:641][  0]LogSlate: Took 0.014128 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.08.06-19.28.07:678][  0]LogSlate: Took 0.005560 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.08.06-19.28.07:682][  0]LogSlate: Took 0.003823 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
-[2017.08.06-19.28.07:920][  0]LogRenderer: Reallocating scene render targets to support 1576x1048 NumSamples 1 (Frame:1).
-[2017.08.06-19.28.08:536][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2017.08.06-19.28.08:656][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
-[2017.08.06-19.28.08:656][  0]LogLoad: (Engine Initialization) Total time: 58.07 seconds
-[2017.08.06-19.28.08:656][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.41 seconds
-[2017.08.06-19.28.08:656][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.08.06-19.28.08:656][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.08.06-19.28.08:996][  0]LogOcInput: OculusInput pre-init called
-[2017.08.06-19.28.08:996][  0]LogHMD: Starting GearVRController plugin
-[2017.08.06-19.28.09:114][  0]LogContentStreaming: Texture pool size now 3000 MB
-[2017.08.06-19.28.09:365][  1]LogAssetRegistry: Asset discovery search completed in 24.7551 seconds
-[2017.08.06-19.28.09:367][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2017.08.06-19.28.09:367][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000118 seconds (updated 0 objects)
-[2017.08.06-19.28.14:833][ 14]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.08.06-19.28.16:677][ 15]Cmd: QUIT_EDITOR
-[2017.08.06-19.28.19:228][ 15]LogExit: Preparing to exit.
-[2017.08.06-19.28.21:785][ 15]LogExit: Editor shut down
-[2017.08.06-19.28.21:787][ 15]LogExit: Transaction tracking system shut down
-[2017.08.06-19.28.30:038][ 15]LogObj: Freed 0b from 0 cluster array pools.
-[2017.08.06-19.28.30:038][ 15]LogExit: Object subsystem successfully closed.
-[2017.08.06-19.28.30:767][ 15]LogD3D11RHI: Shutdown
-[2017.08.06-19.28.30:767][ 15]LogD3D11RHI: CleanupD3DDevice
-[2017.08.06-19.28.30:812][ 15]LogD3D11RHI: ~FD3D11DynamicRHI
-[2017.08.06-19.28.34:751][ 15]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (526)
-[2017.08.06-19.28.34:751][ 15]LogModuleManager: Shutting down and abandoning module CrashTracker (524)
-[2017.08.06-19.28.34:751][ 15]LogModuleManager: Shutting down and abandoning module SceneOutliner (522)
-[2017.08.06-19.28.34:751][ 15]LogModuleManager: Shutting down and abandoning module AddContentDialog (520)
-[2017.08.06-19.28.35:325][ 15]LogDirectoryWatcher: A directory notification for 'D:/Program Files (x86)/UE_4.16/FeaturePacks/' was aborted.
-[2017.08.06-19.28.35:326][ 15]LogModuleManager: Shutting down and abandoning module WidgetCarousel (519)
-[2017.08.06-19.28.35:326][ 15]LogModuleManager: Shutting down and abandoning module EditorWidgets (516)
-[2017.08.06-19.28.35:326][ 15]LogModuleManager: Shutting down and abandoning module CollectionManager (514)
-[2017.08.06-19.28.35:326][ 15]LogDirectoryWatcher: A directory notification for 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Collections/' was aborted.
-[2017.08.06-19.28.35:326][ 15]LogDirectoryWatcher: A directory notification for 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Developers/Tobyn/Collections/' was aborted.
-[2017.08.06-19.28.35:326][ 15]LogDirectoryWatcher: A directory notification for 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/Collections/' was aborted.
-[2017.08.06-19.28.35:326][ 15]LogModuleManager: Shutting down and abandoning module StatsViewer (512)
-[2017.08.06-19.28.35:326][ 15]LogModuleManager: Shutting down and abandoning module FoliageEdit (510)
-[2017.08.06-19.28.35:326][ 15]LogModuleManager: Shutting down and abandoning module LandscapeEditor (508)
-[2017.08.06-19.28.35:597][ 15]LogModuleManager: Shutting down and abandoning module MeshPaintMode (506)
-[2017.08.06-19.28.35:597][ 15]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (504)
-[2017.08.06-19.28.35:597][ 15]LogModuleManager: Shutting down and abandoning module ActorPickerMode (502)
-[2017.08.06-19.28.35:597][ 15]LogModuleManager: Shutting down and abandoning module GeometryMode (500)
-[2017.08.06-19.28.35:597][ 15]LogModuleManager: Shutting down and abandoning module TextureAlignMode (498)
-[2017.08.06-19.28.35:597][ 15]LogModuleManager: Shutting down and abandoning module BspMode (496)
-[2017.08.06-19.28.35:597][ 15]LogModuleManager: Shutting down and abandoning module HardwareSurvey (494)
-[2017.08.06-19.28.35:597][ 15]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (492)
-[2017.08.06-19.28.35:597][ 15]LogModuleManager: Shutting down and abandoning module AutomationWorker (490)
-[2017.08.06-19.28.35:597][ 15]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (488)
-[2017.08.06-19.28.35:597][ 15]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (486)
-[2017.08.06-19.28.35:701][ 15]LogModuleManager: Shutting down and abandoning module PlacementMode (485)
-[2017.08.06-19.28.35:701][ 15]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (482)
-[2017.08.06-19.28.35:701][ 15]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (480)
-[2017.08.06-19.28.35:701][ 15]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (478)
-[2017.08.06-19.28.35:701][ 15]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (476)
-[2017.08.06-19.28.35:701][ 15]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (474)
-[2017.08.06-19.28.35:701][ 15]LogModuleManager: Shutting down and abandoning module Media (473)
-[2017.08.06-19.28.35:701][ 15]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (470)
-[2017.08.06-19.28.35:701][ 15]LogModuleManager: Shutting down and abandoning module CharacterAI (468)
-[2017.08.06-19.28.35:701][ 15]LogModuleManager: Shutting down and abandoning module AudioCapture (466)
-[2017.08.06-19.28.35:701][ 15]LogModuleManager: Shutting down and abandoning module SequenceRecorder (465)
-[2017.08.06-19.28.35:701][ 15]LogModuleManager: Shutting down and abandoning module SmartSnapping (462)
-[2017.08.06-19.28.35:701][ 15]LogModuleManager: Shutting down and abandoning module SessionServices (460)
-[2017.08.06-19.28.35:701][ 15]LogModuleManager: Shutting down and abandoning module ViewportSnapping (458)
-[2017.08.06-19.28.35:701][ 15]LogModuleManager: Shutting down and abandoning module ViewportInteraction (456)
-[2017.08.06-19.28.35:701][ 15]LogModuleManager: Shutting down and abandoning module ClothPainter (454)
-[2017.08.06-19.28.35:741][ 15]LogModuleManager: Shutting down and abandoning module LogVisualizer (452)
-[2017.08.06-19.28.35:954][ 15]LogModuleManager: Shutting down and abandoning module IntroTutorials (450)
-[2017.08.06-19.28.35:955][ 15]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (449)
-[2017.08.06-19.28.36:039][ 15]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (446)
-[2017.08.06-19.28.36:039][ 15]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (444)
-[2017.08.06-19.28.36:654][ 15]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (442)
-[2017.08.06-19.28.36:654][ 15]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (440)
-[2017.08.06-19.28.36:654][ 15]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (439)
-[2017.08.06-19.28.36:959][ 15]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (436)
-[2017.08.06-19.28.36:959][ 15]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (434)
-[2017.08.06-19.28.36:959][ 15]LogModuleManager: Shutting down and abandoning module InputBindingEditor (432)
-[2017.08.06-19.28.36:959][ 15]LogModuleManager: Shutting down and abandoning module MergeActors (430)
-[2017.08.06-19.28.37:522][ 15]LogModuleManager: Shutting down and abandoning module SizeMap (428)
-[2017.08.06-19.28.37:522][ 15]LogModuleManager: Shutting down and abandoning module TreeMap (426)
-[2017.08.06-19.28.37:530][ 15]LogModuleManager: Shutting down and abandoning module ReferenceViewer (424)
-[2017.08.06-19.28.37:530][ 15]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (422)
-[2017.08.06-19.28.37:546][ 15]LogModuleManager: Shutting down and abandoning module LocalizationService (421)
-[2017.08.06-19.28.37:546][ 15]LogModuleManager: Shutting down and abandoning module HardwareTargeting (418)
-[2017.08.06-19.28.37:546][ 15]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (416)
-[2017.08.06-19.28.37:777][ 15]LogModuleManager: Shutting down and abandoning module UndoHistory (414)
-[2017.08.06-19.28.37:777][ 15]LogModuleManager: Shutting down and abandoning module UserFeedback (412)
-[2017.08.06-19.28.37:777][ 15]LogModuleManager: Shutting down and abandoning module XmlParser (410)
-[2017.08.06-19.28.37:777][ 15]LogModuleManager: Shutting down and abandoning module Blutility (408)
-[2017.08.06-19.28.37:777][ 15]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (406)
-[2017.08.06-19.28.37:777][ 15]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (405)
-[2017.08.06-19.28.37:777][ 15]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (402)
-[2017.08.06-19.28.37:777][ 15]LogModuleManager: Shutting down and abandoning module SettingsEditor (400)
-[2017.08.06-19.28.37:777][ 15]LogModuleManager: Shutting down and abandoning module ProjectLauncher (398)
-[2017.08.06-19.28.37:930][ 15]LogModuleManager: Shutting down and abandoning module SessionFrontend (396)
-[2017.08.06-19.28.38:199][ 15]LogModuleManager: Shutting down and abandoning module ProfilerClient (394)
-[2017.08.06-19.28.38:771][ 15]LogModuleManager: Shutting down and abandoning module DeviceManager (392)
-[2017.08.06-19.28.38:784][ 15]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (391)
-[2017.08.06-19.28.38:835][ 15]LogModuleManager: Shutting down and abandoning module AutomationController (388)
-[2017.08.06-19.28.38:835][ 15]LogModuleManager: Shutting down and abandoning module AutomationWindow (386)
-[2017.08.06-19.28.39:423][ 15]LogModuleManager: Shutting down and abandoning module Layers (384)
-[2017.08.06-19.28.39:750][ 15]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (382)
-[2017.08.06-19.28.39:750][ 15]LogModuleManager: Shutting down and abandoning module DetailCustomizations (380)
-[2017.08.06-19.28.39:750][ 15]LogModuleManager: Shutting down and abandoning module PackagesDialog (378)
-[2017.08.06-19.28.39:795][ 15]LogModuleManager: Shutting down and abandoning module Persona (376)
-[2017.08.06-19.28.39:997][ 15]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (375)
-[2017.08.06-19.28.39:997][ 15]LogModuleManager: Shutting down and abandoning module AnimGraph (373)
-[2017.08.06-19.28.39:997][ 15]LogModuleManager: Shutting down and abandoning module Kismet (370)
-[2017.08.06-19.28.39:998][ 15]LogModuleManager: Shutting down and abandoning module ClassViewer (368)
-[2017.08.06-19.28.39:998][ 15]LogModuleManager: Shutting down and abandoning module Toolbox (366)
-[2017.08.06-19.28.39:998][ 15]LogModuleManager: Shutting down and abandoning module ModuleUI (364)
-[2017.08.06-19.28.40:174][ 15]LogModuleManager: Shutting down and abandoning module MovieSceneTools (362)
-[2017.08.06-19.28.40:190][ 15]LogModuleManager: Shutting down and abandoning module OutputLog (360)
-[2017.08.06-19.28.40:190][ 15]LogModuleManager: Shutting down and abandoning module GammaUI (358)
-[2017.08.06-19.28.40:758][ 15]LogModuleManager: Shutting down and abandoning module Documentation (356)
-[2017.08.06-19.28.40:758][ 15]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (354)
-[2017.08.06-19.28.40:758][ 15]LogModuleManager: Shutting down and abandoning module MovieScene (352)
-[2017.08.06-19.28.40:758][ 15]LogModuleManager: Shutting down and abandoning module Niagara (350)
-[2017.08.06-19.28.40:758][ 15]LogModuleManager: Shutting down and abandoning module NiagaraEditor (349)
-[2017.08.06-19.28.40:844][ 15]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (346)
-[2017.08.06-19.28.40:844][ 15]LogModuleManager: Shutting down and abandoning module AnalyticsET (344)
-[2017.08.06-19.28.40:844][ 15]LogModuleManager: Shutting down and abandoning module PortalServices (342)
-[2017.08.06-19.28.40:844][ 15]LogModuleManager: Shutting down and abandoning module PortalRpc (340)
-[2017.08.06-19.28.40:844][ 15]LogModuleManager: Shutting down and abandoning module MessagingRpc (338)
-[2017.08.06-19.28.40:844][ 15]LogModuleManager: Shutting down and abandoning module AIModule (336)
-[2017.08.06-19.28.40:844][ 15]LogModuleManager: Shutting down and abandoning module GameplayDebugger (335)
-[2017.08.06-19.28.40:844][ 15]LogModuleManager: Shutting down and abandoning module AITestSuite (333)
-[2017.08.06-19.28.40:844][ 15]LogModuleManager: Shutting down and abandoning module ProfilerService (330)
-[2017.08.06-19.28.40:940][ 15]LogModuleManager: Shutting down and abandoning module TaskGraph (328)
-[2017.08.06-19.28.41:441][ 15]LogModuleManager: Shutting down and abandoning module SteamVRController (326)
-[2017.08.06-19.28.41:442][ 15]LogModuleManager: Shutting down and abandoning module SteamVR (324)
-[2017.08.06-19.28.41:442][ 15]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (322)
-[2017.08.06-19.28.41:442][ 15]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (320)
-[2017.08.06-19.28.41:442][ 15]LogModuleManager: Shutting down and abandoning module OculusLibrary (318)
-[2017.08.06-19.28.41:442][ 15]LogModuleManager: Shutting down and abandoning module OculusInput (316)
-[2017.08.06-19.28.41:442][ 15]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (314)
-[2017.08.06-19.28.41:442][ 15]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (312)
-[2017.08.06-19.28.41:442][ 15]LogModuleManager: Shutting down and abandoning module CableComponent (310)
-[2017.08.06-19.28.41:442][ 15]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (308)
-[2017.08.06-19.28.41:442][ 15]LogModuleManager: Shutting down and abandoning module AndroidPermission (306)
-[2017.08.06-19.28.41:442][ 15]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (302)
-[2017.08.06-19.28.41:463][ 15]LogModuleManager: Shutting down and abandoning module HTML5Networking (300)
-[2017.08.06-19.28.41:463][ 15]LogModuleManager: Shutting down and abandoning module AlembicImporter (298)
-[2017.08.06-19.28.41:577][ 15]LogModuleManager: Shutting down and abandoning module AlembicLibrary (297)
-[2017.08.06-19.28.41:577][ 15]LogModuleManager: Shutting down and abandoning module GeometryCache (296)
-[2017.08.06-19.28.41:577][ 15]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (295)
-[2017.08.06-19.28.41:577][ 15]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (290)
-[2017.08.06-19.28.41:577][ 15]LogModuleManager: Shutting down and abandoning module SuperSearch (289)
-[2017.08.06-19.28.41:577][ 15]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (286)
-[2017.08.06-19.28.41:577][ 15]LogModuleManager: Shutting down and abandoning module PluginBrowser (284)
-[2017.08.06-19.28.41:577][ 15]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (282)
-[2017.08.06-19.28.41:577][ 15]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (280)
-[2017.08.06-19.28.41:577][ 15]LogModuleManager: Shutting down and abandoning module DesktopPlatform (279)
-[2017.08.06-19.28.41:577][ 15]LogModuleManager: Shutting down and abandoning module UObjectPlugin (276)
-[2017.08.06-19.28.41:577][ 15]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (274)
-[2017.08.06-19.28.41:577][ 15]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (272)
-[2017.08.06-19.28.41:577][ 15]LogModuleManager: Shutting down and abandoning module GitSourceControl (270)
-[2017.08.06-19.28.41:577][ 15]LogModuleManager: Shutting down and abandoning module SourceControl (269)
-[2017.08.06-19.28.41:578][ 15]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (266)
-[2017.08.06-19.28.41:578][ 15]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (264)
-[2017.08.06-19.28.41:578][ 15]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (262)
-[2017.08.06-19.28.41:578][ 15]LogModuleManager: Shutting down and abandoning module Paper2DEditor (260)
-[2017.08.06-19.28.41:578][ 15]LogModuleManager: Shutting down and abandoning module MeshPaint (259)
-[2017.08.06-19.28.41:578][ 15]LogModuleManager: Shutting down and abandoning module LevelEditor (257)
-[2017.08.06-19.28.41:578][ 15]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (256)
-[2017.08.06-19.28.41:578][ 15]LogModuleManager: Shutting down and abandoning module MainFrame (254)
-[2017.08.06-19.28.41:578][ 15]LogModuleManager: Shutting down and abandoning module HotReload (253)
-[2017.08.06-19.28.41:578][ 15]LogDirectoryWatcher: A directory notification for 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Binaries/Win64' was aborted.
-[2017.08.06-19.28.41:578][ 15]LogModuleManager: Shutting down and abandoning module BattleTank (248)
-[2017.08.06-19.28.41:578][ 15]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
-[2017.08.06-19.28.41:578][ 15]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
-[2017.08.06-19.28.41:578][ 15]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
-[2017.08.06-19.28.41:578][ 15]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
-[2017.08.06-19.28.41:578][ 15]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
-[2017.08.06-19.28.41:578][ 15]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
-[2017.08.06-19.28.41:678][ 15]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
-[2017.08.06-19.28.41:779][ 15]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
-[2017.08.06-19.28.41:790][ 15]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
-[2017.08.06-19.28.41:790][ 15]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
-[2017.08.06-19.28.41:790][ 15]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
-[2017.08.06-19.28.41:791][ 15]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
-[2017.08.06-19.28.42:498][ 15]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
-[2017.08.06-19.28.42:499][ 15]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
-[2017.08.06-19.28.42:499][ 15]LogModuleManager: Shutting down and abandoning module Paper2D (218)
-[2017.08.06-19.28.42:513][ 15]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
-[2017.08.06-19.28.42:513][ 15]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
-[2017.08.06-19.28.42:513][ 15]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
-[2017.08.06-19.28.42:513][ 15]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
-[2017.08.06-19.28.42:616][ 15]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
-[2017.08.06-19.28.42:616][ 15]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
-[2017.08.06-19.28.42:616][ 15]LogModuleManager: Shutting down and abandoning module VREditor (204)
-[2017.08.06-19.28.42:616][ 15]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
-[2017.08.06-19.28.42:867][ 15]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
-[2017.08.06-19.28.42:867][ 15]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
-[2017.08.06-19.28.42:912][ 15]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
-[2017.08.06-19.28.42:912][ 15]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
-[2017.08.06-19.28.42:986][ 15]LogModuleManager: Shutting down and abandoning module UMG (192)
-[2017.08.06-19.28.43:029][ 15]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
-[2017.08.06-19.28.43:072][ 15]LogModuleManager: Shutting down and abandoning module Sequencer (190)
-[2017.08.06-19.28.43:221][ 15]LogModuleManager: Shutting down and abandoning module AssetTools (188)
-[2017.08.06-19.28.43:957][ 15]LogModuleManager: Shutting down and abandoning module MessageLog (187)
-[2017.08.06-19.28.43:957][ 15]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
-[2017.08.06-19.28.43:957][ 15]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
-[2017.08.06-19.28.43:978][ 15]LogModuleManager: Shutting down and abandoning module Slate (178)
-[2017.08.06-19.28.43:978][ 15]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
-[2017.08.06-19.28.43:979][ 15]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
-[2017.08.06-19.28.43:979][ 15]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
-[2017.08.06-19.28.43:979][ 15]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
-[2017.08.06-19.28.43:979][ 15]LogModuleManager: Shutting down and abandoning module Networking (168)
-[2017.08.06-19.28.43:979][ 15]LogModuleManager: Shutting down and abandoning module Core (164)
-[2017.08.06-19.28.43:979][ 15]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
-[2017.08.06-19.28.44:024][ 15]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2017.08.06-19.28.44:024][ 15]LogDirectoryWatcher: A directory notification for 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/' was aborted.
-[2017.08.06-19.28.44:024][ 15]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2017.08.06-19.28.44:024][ 15]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
-[2017.08.06-19.28.44:026][ 15]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
-[2017.08.06-19.28.44:026][ 15]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
-[2017.08.06-19.28.44:026][ 15]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
-[2017.08.06-19.28.44:026][ 15]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
-[2017.08.06-19.28.44:026][ 15]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
-[2017.08.06-19.28.44:026][ 15]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
-[2017.08.06-19.28.44:026][ 15]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
-[2017.08.06-19.28.44:026][ 15]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
-[2017.08.06-19.28.44:026][ 15]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
-[2017.08.06-19.28.44:175][ 15]LogDerivedDataCache: Shutdown
-[2017.08.06-19.28.44:175][ 15]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
-[2017.08.06-19.28.44:175][ 15]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
-[2017.08.06-19.28.44:175][ 15]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
-[2017.08.06-19.28.44:219][ 15]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
-[2017.08.06-19.28.44:250][ 15]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
-[2017.08.06-19.28.44:250][ 15]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
-[2017.08.06-19.28.44:765][ 15]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
-[2017.08.06-19.28.44:765][ 15]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
-[2017.08.06-19.28.44:765][ 15]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
-[2017.08.06-19.28.44:765][ 15]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
-[2017.08.06-19.28.44:766][ 15]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
-[2017.08.06-19.28.44:766][ 15]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
-[2017.08.06-19.28.44:766][ 15]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
-[2017.08.06-19.28.44:766][ 15]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
-[2017.08.06-19.28.44:766][ 15]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
-[2017.08.06-19.28.44:766][ 15]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
-[2017.08.06-19.28.44:766][ 15]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
-[2017.08.06-19.28.44:766][ 15]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
-[2017.08.06-19.28.44:766][ 15]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
-[2017.08.06-19.28.44:766][ 15]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
-[2017.08.06-19.28.44:766][ 15]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
-[2017.08.06-19.28.44:766][ 15]LogModuleManager: Shutting down and abandoning module Messaging (101)
-[2017.08.06-19.28.44:766][ 15]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
-[2017.08.06-19.28.44:766][ 15]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
-[2017.08.06-19.28.44:766][ 15]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
-[2017.08.06-19.28.44:766][ 15]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
-[2017.08.06-19.28.44:766][ 15]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
-[2017.08.06-19.28.44:766][ 15]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
-[2017.08.06-19.28.44:766][ 15]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
-[2017.08.06-19.28.44:766][ 15]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
-[2017.08.06-19.28.44:766][ 15]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
-[2017.08.06-19.28.44:766][ 15]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
-[2017.08.06-19.28.44:766][ 15]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
-[2017.08.06-19.28.44:766][ 15]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
-[2017.08.06-19.28.44:766][ 15]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
-[2017.08.06-19.28.44:766][ 15]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
-[2017.08.06-19.28.44:766][ 15]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
-[2017.08.06-19.28.44:766][ 15]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
-[2017.08.06-19.28.44:766][ 15]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
-[2017.08.06-19.28.44:766][ 15]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
-[2017.08.06-19.28.44:766][ 15]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
-[2017.08.06-19.28.44:766][ 15]LogModuleManager: Shutting down and abandoning module InputCore (60)
-[2017.08.06-19.28.44:766][ 15]LogModuleManager: Shutting down and abandoning module Settings (58)
-[2017.08.06-19.28.44:766][ 15]LogModuleManager: Shutting down and abandoning module OculusRift (56)
-[2017.08.06-19.28.44:766][ 15]LogModuleManager: Shutting down and abandoning module GearVRController (54)
-[2017.08.06-19.28.44:766][ 15]LogModuleManager: Shutting down and abandoning module GearVR (52)
-[2017.08.06-19.28.44:775][ 15]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
-[2017.08.06-19.28.44:775][ 15]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2017.08.06-19.28.44:775][ 15]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2017.08.06-19.28.44:775][ 15]LogOnline:Display: Unloading online subsystem: NULL
-[2017.08.06-19.28.44:796][ 15]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2017.08.06-19.28.44:807][ 15]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2017.08.06-19.28.44:807][ 15]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2017.08.06-19.28.44:977][ 15]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B2B8A8884-49B8-1374-8EF0-8D9921864CCF%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=4ae1589a455ad0adc5687ab96781bfa2%7Cc950536b555f4d8c91de457461443632%7C161fd0d8-85c4-42e4-bcf6-c2b095a060fb&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2017.08.06-19.28.45:007][ 15]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2017.08.06-19.28.45:008][ 15]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
-[2017.08.06-19.28.45:009][ 15]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
-[2017.08.06-19.28.45:067][ 15]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
-[2017.08.06-19.28.45:067][ 15]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
-[2017.08.06-19.28.45:099][ 15]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
-[2017.08.06-19.28.45:099][ 15]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
-[2017.08.06-19.28.45:099][ 15]LogModuleManager: Shutting down and abandoning module Landscape (24)
-[2017.08.06-19.28.45:099][ 15]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
-[2017.08.06-19.28.45:160][ 15]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
-[2017.08.06-19.28.45:389][ 15]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
-[2017.08.06-19.28.45:389][ 15]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
-[2017.08.06-19.28.45:389][ 15]LogModuleManager: Shutting down and abandoning module Renderer (14)
-[2017.08.06-19.28.45:389][ 15]LogModuleManager: Shutting down and abandoning module Engine (12)
-[2017.08.06-19.28.45:389][ 15]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
-[2017.08.06-19.28.45:389][ 15]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
-[2017.08.06-19.28.45:389][ 15]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2017.08.06-19.28.45:389][ 15]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2017.08.06-19.28.45:389][ 15]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2017.08.06-19.28.45:390][ 15]LogExit: Exiting.
-[2017.08.06-19.28.45:397][ 15]Log file closed, 08/06/17 15:28:45
+[2017.08.07-05.48.01:526][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.07-05.48.01:526][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.07-05.48.01:540][  0]LogInit: Computer: DESKTOP-UIA5L5T
+[2017.08.07-05.48.01:540][  0]LogInit: User: Tobyn
+[2017.08.07-05.48.01:540][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.08.07-05.48.01:540][  0]LogInit: High frequency timer resolution =3.914059 MHz
+[2017.08.07-05.48.01:540][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2017.08.07-05.48.01:540][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.07-05.48.01:540][  0]LogMemory: Process Physical Memory: 273.57 MB used, 273.57 MB peak
+[2017.08.07-05.48.01:541][  0]LogMemory: Process Virtual Memory: 260.81 MB used, 260.81 MB peak
+[2017.08.07-05.48.01:541][  0]LogMemory: Physical Memory: 8977.24 MB used,  23710.34 MB free, 32687.58 MB total
+[2017.08.07-05.48.01:541][  0]LogMemory: Virtual Memory: 638.49 MB used,  23710.34 MB free, 134217728.00 MB total
+[2017.08.07-05.48.01:573][  0]LogInit: Using OS detected language (en-US).
+[2017.08.07-05.48.01:573][  0]LogInit: Using OS detected locale (en-US).
+[2017.08.07-05.48.01:575][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.08.07-05.48.03:209][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.07-05.48.03:617][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.08.07-05.48.03:617][  0]LogD3D11RHI:       8085/0/16343 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.08.07-05.48.03:618][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.07-05.48.03:618][  0]LogD3D11RHI:       0/0/16343 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.07-05.48.03:618][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.07-05.48.03:623][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.07-05.48.03:623][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.08.07-05.48.03:623][  0]LogWindows: EnumDisplayDevices:
+[2017.08.07-05.48.03:623][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.08.07-05.48.03:623][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2017.08.07-05.48.03:623][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.08.07-05.48.03:623][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.08.07-05.48.03:623][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.08.07-05.48.03:623][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.08.07-05.48.03:623][  0]LogD3D11RHI:   Driver Version: 384.94 (internal:22.21.13.8494, unified:384.94)
+[2017.08.07-05.48.03:623][  0]LogD3D11RHI:      Driver Date: 7-18-2017
+[2017.08.07-05.48.03:623][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.07-05.48.04:000][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.07-05.48.04:032][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.08.07-05.48.04:075][  0]LogD3D11RHI: HDR output is supported on display 0 (NvId: 0x80061081).
+[2017.08.07-05.48.04:075][  0]LogShaderCompilers: Guid format shader working directory is -12 characters bigger than the processId version (C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Intermediate/Shaders/WorkingDirectory/18940/).
+[2017.08.07-05.48.04:075][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Tobyn/AppData/Local/Temp/UnrealShaderWorkingDir/6EC717594861646491967B8AF2A7695B/'.
+[2017.08.07-05.48.04:075][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.08.07-05.48.05:251][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.07-05.48.05:275][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.08.07-05.48.05:298][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.07-05.48.05:322][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.08.07-05.48.05:348][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.08.07-05.48.05:372][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.07-05.48.05:396][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.07-05.48.05:420][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.07-05.48.05:440][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.08.07-05.48.05:465][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.08.07-05.48.05:488][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.07-05.48.05:512][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.07-05.48.05:534][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.07-05.48.05:559][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.07-05.48.05:582][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.07-05.48.05:628][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.07-05.48.05:628][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.07-05.48.05:646][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.08.07-05.48.05:702][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.08.07-05.48.05:717][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.08.07-05.48.05:741][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.07-05.48.05:764][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.07-05.48.05:788][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.07-05.48.05:813][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.08.07-05.48.05:813][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.08.07-05.48.06:030][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.08.07-05.48.06:093][  0]LogDerivedDataCache: Loaded boot cache 0.06s 90MB C:/Users/Tobyn/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.07-05.48.06:093][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Tobyn/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.08.07-05.48.06:094][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.07-05.48.06:094][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.07-05.48.06:094][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.07-05.48.06:094][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.07-05.48.06:128][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.07-05.48.06:140][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Tobyn/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.07-05.48.06:146][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.07-05.48.06:146][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.07-05.48.06:146][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.07-05.48.06:146][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.07-05.48.08:651][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.07-05.48.08:727][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.07-05.48.08:817][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.07-05.48.08:837][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.07-05.48.08:857][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.07-05.48.08:857][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.08.07-05.48.08:857][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.08.07-05.48.09:432][  0]LogNetVersion: BattleTank , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4114001466)
+[2017.08.07-05.48.09:485][  0]LogAssetRegistry: FAssetRegistry took 0.0240 seconds to start up
+[2017.08.07-05.48.09:522][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.028497 seconds
+[2017.08.07-05.48.09:526][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.08.07-05.48.09:526][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.08.07-05.48.09:526][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.07-05.48.09:554][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.07-05.48.11:724][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.07-05.48.11:747][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.07-05.48.12:083][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.07-05.48.12:312][  0]SourceControl: Info Source control is disabled
+[2017.08.07-05.48.12:348][  0]SourceControl: Info Source control is disabled
+[2017.08.07-05.48.12:369][  0]SourceControl: Info Source control is disabled
+[2017.08.07-05.48.12:389][  0]SourceControl: Info Source control is disabled
+[2017.08.07-05.48.12:711][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.07-05.48.12:991][  0]LogEngine: Initializing Engine...
+[2017.08.07-05.48.12:993][  0]LogHMD: Failed to initialize OpenVR with code 102
+[2017.08.07-05.48.13:195][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.07-05.48.13:195][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.07-05.48.13:252][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.07-05.48.13:258][  0]LogInit: XAudio2 using 'Speakers (Logitech G633 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.08.07-05.48.13:270][  0]LogInit: FAudioDevice initialized.
+[2017.08.07-05.48.13:297][  0]LogDerivedDataCache: Saved boot cache 0.03s 90MB C:/Users/Tobyn/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.07-05.48.13:304][  0]LogInit: Texture streaming: Enabled
+[2017.08.07-05.48.13:346][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.07-05.48.13:346][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={B5CADFC1-4288-F822-9974-EB89CDABDA80}
+[2017.08.07-05.48.13:448][  0]LogInit: Transaction tracking system initialized
+[2017.08.07-05.48.13:581][  0]BlueprintLog: New page: Editor Load
+[2017.08.07-05.48.13:984][  0]LocalizationService: Info Localization service is disabled
+[2017.08.07-05.48.14:296][  0]LogConsoleResponse:Display: 
+[2017.08.07-05.48.14:473][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.07-05.48.14:473][  0]LogCook:Display: Mobile HDR setting 1
+[2017.08.07-05.48.14:917][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/' took 0.01s
+[2017.08.07-05.48.14:939][  0]SourceControl: Info Source control is disabled
+[2017.08.07-05.48.15:001][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.07-05.48.15:023][  0]LogSlate: Took 0.000118 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.07-05.48.18:696][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.07-05.48.18:697][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.07-05.48.24:550][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.07-05.48.24:551][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.07-05.48.24:637][  0]Cmd: MAP LOAD FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/BattleGround.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.07-05.48.24:637][  0]LightingResults: New page: Lighting Build
+[2017.08.07-05.48.24:656][  0]MapCheck: New page: Map Check
+[2017.08.07-05.48.24:656][  0]LightingResults: New page: Lighting Build
+[2017.08.07-05.48.25:043][  0]LogAIModule: Creating AISystem for world BattleGround
+[2017.08.07-05.48.25:338][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.07-05.48.25:348][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.07-05.48.25:370][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 22.077ms to complete.
+[2017.08.07-05.48.25:370][  0]LogFileHelpers: Loading map 'BattleGround' took 0.733
+[2017.08.07-05.48.25:419][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_1a58_0///####STATCAT_Advanced#### old //STATGROUP_Threads//SplashScreenThread///Thread_31e4_0///####STATCAT_Advanced####
+[2017.08.07-05.48.25:419][  0]LogCollectionManager: Loaded 0 collections in 0.000515 seconds
+[2017.08.07-05.48.25:480][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/Collections/' took 0.01s
+[2017.08.07-05.48.25:480][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Developers/Tobyn/Collections/' took 0.01s
+[2017.08.07-05.48.25:480][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Collections/' took 0.01s
+[2017.08.07-05.48.25:480][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.08.07-05.48.25:486][  0]LogContentBrowser: Native class hierarchy populated in 0.0061 seconds. Added 2330 classes and 493 folders.
+[2017.08.07-05.48.25:515][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.08.07-05.48.25:686][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.08.07-05.48.25:743][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.08.07-05.48.25:763][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.08.07-05.48.25:767][  0]LogSlate: Took 0.000116 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.07-05.48.25:772][  0]LogSlate: Took 0.002378 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.07-05.48.25:775][  0]LogSlate: Took 0.002746 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2017.08.07-05.48.25:877][  0]LogRenderer: Reallocating scene render targets to support 1576x1048 NumSamples 1 (Frame:1).
+[2017.08.07-05.48.25:991][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.08.07-05.48.26:032][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.08.07-05.48.26:033][  0]LogLoad: (Engine Initialization) Total time: 25.64 seconds
+[2017.08.07-05.48.26:033][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.06 seconds
+[2017.08.07-05.48.26:033][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.08.07-05.48.26:033][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.08.07-05.48.26:042][  0]LogOcInput: OculusInput pre-init called
+[2017.08.07-05.48.26:042][  0]LogHMD: Starting GearVRController plugin
+[2017.08.07-05.48.26:062][  0]LogAssetRegistry: Asset discovery search completed in 16.5992 seconds
+[2017.08.07-05.48.26:063][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.08.07-05.48.26:063][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000090 seconds (updated 0 objects)
+[2017.08.07-05.48.26:082][  0]LogContentStreaming: Texture pool size now 3000 MB
+[2017.08.07-05.48.27:076][115]LogSlate: Took 0.002180 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.07-05.48.31:145][566]LogSlate: Took 0.000087 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.07-05.48.31:433][566]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 112 classes and 0 folders.
+[2017.08.07-05.48.35:021][867]LogRenderer: Reallocating scene render targets to support 1912x1284 NumSamples 1 (Frame:291).
+[2017.08.07-05.50.18:507][514]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/tank_fbx_Body_hull" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/tank_fbx_Body_hull.uasset" SILENT=true
+[2017.08.07-05.50.18:522][514]LogSavePackage: Save=10.30ms
+[2017.08.07-05.50.18:522][514]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/tank_fbx_Body_hull957EAACD44350BC0865BFCAED19B1FA5.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/tank_fbx_Body_hull.uasset'
+[2017.08.07-05.50.18:526][514]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/tank_fbx_Body_hull.uasset
+[2017.08.07-05.50.21:907][901]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BattleGround" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/BattleGround.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.07-05.50.22:704][901]LogSavePackage: Save=761.95ms
+[2017.08.07-05.50.22:704][901]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/BattleGroundA5FE5EFF4B5EFA8BFA033896F84B8B43.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/BattleGround.umap'
+[2017.08.07-05.50.22:707][901]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/BattleGround.umap
+[2017.08.07-05.50.22:729][901]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BattleGround_BuiltData" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/BattleGround_BuiltData.uasset" SILENT=true
+[2017.08.07-05.50.23:734][901]LogSlate: Took 0.000113 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.07-05.50.24:855][901]LogSavePackage: Save=2090.76ms
+[2017.08.07-05.50.24:855][901]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/BattleGround_BuiltData03B30D304605EDA03AD403B3E7A572F3.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/BattleGround_BuiltData.uasset'
+[2017.08.07-05.50.24:861][901]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/BattleGround_BuiltData.uasset
+[2017.08.07-05.56.41:167][424]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/tank_fbx_Body_hull" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/tank_fbx_Body_hull.uasset" SILENT=true
+[2017.08.07-05.56.41:183][424]LogSavePackage: Save=10.44ms
+[2017.08.07-05.56.41:183][424]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/tank_fbx_Body_hull5EEE2671488B3E64A93995AD1F588BCA.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/tank_fbx_Body_hull.uasset'
+[2017.08.07-05.56.41:185][424]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/tank_fbx_Body_hull.uasset
+[2017.08.07-06.01.55:716][299]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BattleGround" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/BattleGround.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.07-06.01.56:381][299]LogSavePackage: Save=625.24ms
+[2017.08.07-06.01.56:381][299]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/BattleGroundC9F264724E73A70379603DAFD616E772.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/BattleGround.umap'
+[2017.08.07-06.01.56:384][299]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/BattleGround.umap
+[2017.08.07-06.01.56:406][299]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BattleGround_BuiltData" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/BattleGround_BuiltData.uasset" SILENT=true
+[2017.08.07-06.01.58:038][299]LogSavePackage: Save=1599.63ms
+[2017.08.07-06.01.58:038][299]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/BattleGround_BuiltData1388A62F4E79A10A920A24B6C7EAD10F.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/BattleGround_BuiltData.uasset'
+[2017.08.07-06.01.58:044][299]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/BattleGround_BuiltData.uasset
+[2017.08.07-06.02.36:022][265]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BattleGround" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/BattleGround.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.07-06.02.36:656][265]LogSavePackage: Save=619.68ms
+[2017.08.07-06.02.36:656][265]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/BattleGround34861CCE4D8FEB3E11395C9C77865703.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/BattleGround.umap'
+[2017.08.07-06.02.36:660][265]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/BattleGround.umap
+[2017.08.07-06.02.36:675][265]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BattleGround_BuiltData" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/BattleGround_BuiltData.uasset" SILENT=true
+[2017.08.07-06.02.38:215][265]LogSavePackage: Save=1538.45ms
+[2017.08.07-06.02.38:215][265]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/BattleGround_BuiltData4F9319774966A67220D6BCAD8EB61383.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/BattleGround_BuiltData.uasset'
+[2017.08.07-06.02.38:221][265]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/BattleGround_BuiltData.uasset
+[2017.08.07-06.09.22:702][704]LogEditorTransaction: Undo Translate Socket
+[2017.08.07-06.11.15:874][711]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/tank_fbx_Body_hull" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/tank_fbx_Body_hull.uasset" SILENT=true
+[2017.08.07-06.11.15:890][711]LogSavePackage: Save=11.34ms
+[2017.08.07-06.11.15:890][711]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/tank_fbx_Body_hull52EF041647A9E3E987709D8AFD9CFD3C.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/tank_fbx_Body_hull.uasset'
+[2017.08.07-06.11.15:896][711]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/tank_fbx_Body_hull.uasset
+[2017.08.07-06.11.20:725][284]LogSlate: Took 0.002191 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.08.07-06.11.21:722][399]LogSlate: Took 0.002245 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.08.07-06.12.26:269][519]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BattleGround" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/BattleGround.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.07-06.12.26:920][519]LogSavePackage: Save=617.51ms
+[2017.08.07-06.12.26:920][519]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/BattleGround76A805974C620C1B737B30BBD1498E66.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/BattleGround.umap'
+[2017.08.07-06.12.26:923][519]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/BattleGround.umap
+[2017.08.07-06.12.26:938][519]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BattleGround_BuiltData" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/BattleGround_BuiltData.uasset" SILENT=true
+[2017.08.07-06.12.28:512][519]LogSavePackage: Save=1538.81ms
+[2017.08.07-06.12.28:513][519]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/BattleGround_BuiltDataE5B300EA45C32C93ADE5F1B99ECC174A.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/BattleGround_BuiltData.uasset'
+[2017.08.07-06.12.28:518][519]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/BattleGround_BuiltData.uasset
+[2017.08.07-06.13.57:027][894]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/tank_fbx_Turret_turret_001" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/tank_fbx_Turret_turret_001.uasset" SILENT=true
+[2017.08.07-06.13.57:043][894]LogSavePackage: Save=10.58ms
+[2017.08.07-06.13.57:043][894]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/tank_fbx_Turret_turret_001CDB803704CA8E92E14C20FB58E629200.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/tank_fbx_Turret_turret_001.uasset'
+[2017.08.07-06.13.57:049][894]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/tank_fbx_Turret_turret_001.uasset
+[2017.08.07-06.14.18:186][846]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BattleGround" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/BattleGround.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.07-06.14.18:812][846]LogSavePackage: Save=613.39ms
+[2017.08.07-06.14.18:812][846]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/BattleGroundA4CADFB34E9AFB3044C342A197F8D6D9.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/BattleGround.umap'
+[2017.08.07-06.14.18:815][846]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/BattleGround.umap
+[2017.08.07-06.14.18:830][846]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BattleGround_BuiltData" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/BattleGround_BuiltData.uasset" SILENT=true
+[2017.08.07-06.14.20:417][846]LogSavePackage: Save=1585.68ms
+[2017.08.07-06.14.20:417][846]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/BattleGround_BuiltData0CA86FEF44614B11D5EFC491887D81BC.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/BattleGround_BuiltData.uasset'
+[2017.08.07-06.14.20:423][846]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/BattleGround_BuiltData.uasset
+[2017.08.07-06.14.20:979][893]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/tank_fbx_Body_hull" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/tank_fbx_Body_hull.uasset" SILENT=true
+[2017.08.07-06.14.20:990][893]LogSavePackage: Save=9.69ms
+[2017.08.07-06.14.20:990][893]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/tank_fbx_Body_hull08B24DD7435CABD6AC27EB9B53069B09.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/tank_fbx_Body_hull.uasset'
+[2017.08.07-06.14.20:992][893]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/tank_fbx_Body_hull.uasset
+[2017.08.07-06.23.37:685][ 83]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_BP" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_BP.uasset" SILENT=true
+[2017.08.07-06.23.37:717][ 83]LogSavePackage: Save=27.59ms
+[2017.08.07-06.23.37:717][ 83]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/Tank_BP85D3947943252334D5AE54AEC364E726.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_BP.uasset'
+[2017.08.07-06.23.37:720][ 83]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_BP.uasset
+[2017.08.07-06.23.38:906][220]BlueprintLog: New page: Compile Tank_BP
+[2017.08.07-06.24.56:796][291]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.07-06.24.56:826][291]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.07-06.24.56:826][291]PIE: New page: PIE session: BattleGround (Aug 6, 2017, 10:24:56 PM)
+[2017.08.07-06.24.56:826][291]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BattleGround
+[2017.08.07-06.24.56:877][291]LogPlayLevel: PIE: StaticDuplicateObject took: (0.050234s)
+[2017.08.07-06.24.56:878][291]LogAIModule: Creating AISystem for world BattleGround
+[2017.08.07-06.24.56:878][291]LogPlayLevel: PIE: World Init took: (0.000541s)
+[2017.08.07-06.24.56:878][291]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BattleGround.BattleGround to /Game/UEDPIE_0_BattleGround.BattleGround (0.051101s)
+[2017.08.07-06.24.56:900][291]LogInit: XAudio2 using 'Speakers (Logitech G633 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.08.07-06.24.56:909][291]LogInit: FAudioDevice initialized.
+[2017.08.07-06.24.56:952][291]LogLoad: Game class is 'GameModeBase'
+[2017.08.07-06.24.56:955][291]LogWorld: Bringing World /Game/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2017.08.07-02.24.56
+[2017.08.07-06.24.57:039][291]LogWorld: Bringing up level for play took: 0.085956
+[2017.08.07-06.24.57:058][291]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
+[2017.08.07-06.24.57:059][291]PIE: Info Play in editor start time for /Game/UEDPIE_0_BattleGround 1.088
+[2017.08.07-06.25.14:222][164]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape5)
+[2017.08.07-06.25.43:444][ 18]LogSlate: Took 0.000112 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.07-06.26.06:347][792]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.26.06:398][792]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.26.06:406][792]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.26.08:032][953]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.08.07-06.26.08:032][953]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.26.08:032][953]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.07-06.26.14:341][708]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.26.14:348][708]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.07-06.26.14:901][762]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.08.07-06.26.14:901][762]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.26.14:901][762]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.07-06.26.30:479][611]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.26.30:489][611]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.07-06.26.31:035][661]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.08.07-06.26.31:035][661]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.26.31:035][661]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.07-06.26.31:848][758]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.26.31:859][758]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.07-06.26.32:402][806]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.08.07-06.26.32:402][806]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.26.32:402][806]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.07-06.26.34:747][ 87]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.26.34:760][ 87]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.07-06.26.35:299][136]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.26.35:310][136]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.07-06.26.35:609][162]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.26.35:624][162]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.07-06.26.35:967][193]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.26.35:985][193]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.07-06.26.36:609][251]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.08.07-06.26.36:609][251]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.26.36:609][251]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.07-06.26.38:545][483]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.26.38:559][483]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.07-06.26.39:109][533]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.08.07-06.26.39:109][533]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.26.39:109][533]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.07-06.26.39:321][558]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.26.39:333][558]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.07-06.26.39:891][611]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.08.07-06.26.39:891][611]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.26.39:891][611]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.07-06.26.42:248][893]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.26.42:258][893]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.07-06.26.42:799][943]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.08.07-06.26.42:799][943]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.26.42:799][943]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.07-06.26.44:905][195]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.26.44:916][195]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.07-06.26.45:466][246]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.08.07-06.26.45:466][246]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.26.45:466][246]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.07-06.26.45:593][261]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.26.45:605][261]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.07-06.26.46:191][315]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.08.07-06.26.46:191][315]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.26.46:191][315]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.07-06.26.52:228][  0]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.26.52:239][  0]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.07-06.26.52:780][ 52]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.08.07-06.26.52:780][ 52]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.26.52:780][ 52]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.07-06.26.56:645][497]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.26.56:659][497]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.07-06.26.57:161][525]MaterialEditorStats: Info Base pass shader: 84 instructions
+[2017.08.07-06.26.57:161][525]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.26.57:161][525]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.07-06.27.01:568][ 53]LogMaterialEditor: Saving and Compiling material Tank_Material
+[2017.08.07-06.27.01:922][ 53]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.27.02:006][ 53]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.27.02:025][ 53]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.27.02:055][ 53]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Tank_Material, compiling. 
+[2017.08.07-06.27.02:381][ 53]TextureStreamingBuild:Display: Compiling optional shaders took 0.331 seconds.
+[2017.08.07-06.27.03:295][ 53]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank_Material" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank_Material.uasset" SILENT=true
+[2017.08.07-06.27.03:306][ 53]LogSavePackage: Save=9.72ms
+[2017.08.07-06.27.03:306][ 53]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/Tank_Material9802DD9644EE880ADB491DB83C7BAD8F.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank_Material.uasset'
+[2017.08.07-06.27.03:308][ 53]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank_Material.uasset
+[2017.08.07-06.27.03:406][ 53]MaterialEditorStats: Info Base pass shader: 84 instructions
+[2017.08.07-06.27.03:407][ 53]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.27.03:407][ 53]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.08.07-06.27.20:768][933]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_Material" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_Material.uasset" SILENT=true
+[2017.08.07-06.27.20:779][933]LogSavePackage: Save=9.42ms
+[2017.08.07-06.27.20:779][933]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/Tank_MaterialF636F659439545FDC982CA8AA67B540D.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_Material.uasset'
+[2017.08.07-06.27.20:781][933]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_Material.uasset
+[2017.08.07-06.27.52:050][971]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'TRASH_StaticMeshComponent_100' or package '/Engine/Transient'.
+[2017.08.07-06.27.54:114][971]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BattleGround" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/BattleGround.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.07-06.27.54:764][971]LogSavePackage: Save=621.16ms
+[2017.08.07-06.27.54:764][971]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/BattleGroundEC143A7845BCA7C5ED48F2BA4DD80AF6.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/BattleGround.umap'
+[2017.08.07-06.27.54:769][971]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/BattleGround.umap
+[2017.08.07-06.27.54:783][971]LogFileHelpers: Saving map 'BattleGround' took 0.695
+[2017.08.07-06.27.54:853][971]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_BP" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_BP.uasset" SILENT=true
+[2017.08.07-06.27.54:878][971]LogSavePackage: Save=24.20ms
+[2017.08.07-06.27.54:878][971]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/Tank_BP37AE596B4AC0A7E6C99EF39E8C800052.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_BP.uasset'
+[2017.08.07-06.27.54:880][971]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_BP.uasset
+[2017.08.07-06.27.54:910][971]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/tank_fbx_Barrel" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/tank_fbx_Barrel.uasset" SILENT=true
+[2017.08.07-06.27.54:924][971]LogSavePackage: Save=9.07ms
+[2017.08.07-06.27.54:924][971]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/tank_fbx_BarrelF61DA0A74C57B6D9531B43AE6F9AF905.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/tank_fbx_Barrel.uasset'
+[2017.08.07-06.27.54:926][971]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/tank_fbx_Barrel.uasset
+[2017.08.07-06.27.54:951][971]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/tank_fbx_Body_headlight" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/tank_fbx_Body_headlight.uasset" SILENT=true
+[2017.08.07-06.27.54:962][971]LogSavePackage: Save=7.64ms
+[2017.08.07-06.27.54:962][971]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/tank_fbx_Body_headlight30CE20844A3FBFB9504580B31B5F5E4B.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/tank_fbx_Body_headlight.uasset'
+[2017.08.07-06.27.54:964][971]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/tank_fbx_Body_headlight.uasset
+[2017.08.07-06.27.54:991][971]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/tank_fbx_Body_headlight_002" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/tank_fbx_Body_headlight_002.uasset" SILENT=true
+[2017.08.07-06.27.55:003][971]LogSavePackage: Save=7.83ms
+[2017.08.07-06.27.55:003][971]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/tank_fbx_Body_headlight_00296A7DF8647D475157AC78287F7A9CD0B.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/tank_fbx_Body_headlight_002.uasset'
+[2017.08.07-06.27.55:005][971]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/tank_fbx_Body_headlight_002.uasset
+[2017.08.07-06.27.55:030][971]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/tank_fbx_Body_hull" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/tank_fbx_Body_hull.uasset" SILENT=true
+[2017.08.07-06.27.55:044][971]LogSavePackage: Save=9.46ms
+[2017.08.07-06.27.55:045][971]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/tank_fbx_Body_hullF035C17B4224CAC7B0459C9E6BDF49C3.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/tank_fbx_Body_hull.uasset'
+[2017.08.07-06.27.55:046][971]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/tank_fbx_Body_hull.uasset
+[2017.08.07-06.27.55:070][971]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/tank_fbx_Body_Hull_V" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/tank_fbx_Body_Hull_V.uasset" SILENT=true
+[2017.08.07-06.27.55:083][971]LogSavePackage: Save=8.70ms
+[2017.08.07-06.27.55:083][971]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/tank_fbx_Body_Hull_V044D39534F87E36F9FF3FBB1FA2A10AF.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/tank_fbx_Body_Hull_V.uasset'
+[2017.08.07-06.27.55:085][971]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/tank_fbx_Body_Hull_V.uasset
+[2017.08.07-06.27.55:095][971]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/tank_fbx_Body_oil_drum" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/tank_fbx_Body_oil_drum.uasset" SILENT=true
+[2017.08.07-06.27.55:108][971]LogSavePackage: Save=9.00ms
+[2017.08.07-06.27.55:108][971]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/tank_fbx_Body_oil_drum0E78A43A4FC47C77F0F4C2B7D41B88D0.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/tank_fbx_Body_oil_drum.uasset'
+[2017.08.07-06.27.55:110][971]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/tank_fbx_Body_oil_drum.uasset
+[2017.08.07-06.27.55:122][971]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/tank_fbx_Body_track_guard" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/tank_fbx_Body_track_guard.uasset" SILENT=true
+[2017.08.07-06.27.55:144][971]LogSavePackage: Save=8.94ms
+[2017.08.07-06.27.55:144][971]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/tank_fbx_Body_track_guard9F665C0741FED030E4ED37AE5146D838.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/tank_fbx_Body_track_guard.uasset'
+[2017.08.07-06.27.55:146][971]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/tank_fbx_Body_track_guard.uasset
+[2017.08.07-06.27.55:156][971]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/tank_fbx_Body_turret_neck" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/tank_fbx_Body_turret_neck.uasset" SILENT=true
+[2017.08.07-06.27.55:169][971]LogSavePackage: Save=9.25ms
+[2017.08.07-06.27.55:169][971]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/tank_fbx_Body_turret_neckD00D083147501EDAC1D5A582B726CF18.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/tank_fbx_Body_turret_neck.uasset'
+[2017.08.07-06.27.55:171][971]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/tank_fbx_Body_turret_neck.uasset
+[2017.08.07-06.27.55:181][971]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/tank_fbx_Body_wheel" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/tank_fbx_Body_wheel.uasset" SILENT=true
+[2017.08.07-06.27.55:195][971]LogSavePackage: Save=8.68ms
+[2017.08.07-06.27.55:195][971]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/tank_fbx_Body_wheelFC914D414A5C5733374977A9DB69E7C1.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/tank_fbx_Body_wheel.uasset'
+[2017.08.07-06.27.55:197][971]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/tank_fbx_Body_wheel.uasset
+[2017.08.07-06.27.55:207][971]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/tank_fbx_Body_wheel_front" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/tank_fbx_Body_wheel_front.uasset" SILENT=true
+[2017.08.07-06.27.55:220][971]LogSavePackage: Save=8.76ms
+[2017.08.07-06.27.55:220][971]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/tank_fbx_Body_wheel_front48E7FCC8466674FAD6C40F9F1B0151D9.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/tank_fbx_Body_wheel_front.uasset'
+[2017.08.07-06.27.55:222][971]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/tank_fbx_Body_wheel_front.uasset
+[2017.08.07-06.27.55:232][971]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/tank_fbx_Body_wheel_rear" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/tank_fbx_Body_wheel_rear.uasset" SILENT=true
+[2017.08.07-06.27.55:246][971]LogSavePackage: Save=8.99ms
+[2017.08.07-06.27.55:246][971]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/tank_fbx_Body_wheel_rear410D66D1498A8CC8AC4741BB0C3F6F71.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/tank_fbx_Body_wheel_rear.uasset'
+[2017.08.07-06.27.55:248][971]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/tank_fbx_Body_wheel_rear.uasset
+[2017.08.07-06.27.55:271][971]LogSavePackage: Save=7.69ms
+[2017.08.07-06.27.55:271][971]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/tank_fbx_Turret_Commanders_hatch_0015DF37D2941872EE41E2980B25D680BA1.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/tank_fbx_Turret_Commanders_hatch_001.uasset'
+[2017.08.07-06.27.55:273][971]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/tank_fbx_Turret_Commanders_hatch_001.uasset
+[2017.08.07-06.27.55:282][971]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/tank_fbx_Turret_gunner_sight_001" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/tank_fbx_Turret_gunner_sight_001.uasset" SILENT=true
+[2017.08.07-06.27.55:295][971]LogSavePackage: Save=8.10ms
+[2017.08.07-06.27.55:295][971]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/tank_fbx_Turret_gunner_sight_001410D6E854A11D99A5A8F06948EA7E576.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/tank_fbx_Turret_gunner_sight_001.uasset'
+[2017.08.07-06.27.55:297][971]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/tank_fbx_Turret_gunner_sight_001.uasset
+[2017.08.07-06.27.55:306][971]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/tank_fbx_Turret_headlight_004" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/tank_fbx_Turret_headlight_004.uasset" SILENT=true
+[2017.08.07-06.27.55:318][971]LogSavePackage: Save=7.65ms
+[2017.08.07-06.27.55:318][971]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/tank_fbx_Turret_headlight_004DE9730264B1B388A36F90E88F4A8A128.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/tank_fbx_Turret_headlight_004.uasset'
+[2017.08.07-06.27.55:320][971]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/tank_fbx_Turret_headlight_004.uasset
+[2017.08.07-06.27.55:330][971]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/tank_fbx_Turret_headlight_005" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/tank_fbx_Turret_headlight_005.uasset" SILENT=true
+[2017.08.07-06.27.55:342][971]LogSavePackage: Save=7.74ms
+[2017.08.07-06.27.55:342][971]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/tank_fbx_Turret_headlight_005EB057C3E463AD040CE728B8F1F94BC40.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/tank_fbx_Turret_headlight_005.uasset'
+[2017.08.07-06.27.55:344][971]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/tank_fbx_Turret_headlight_005.uasset
+[2017.08.07-06.27.55:353][971]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/tank_fbx_Turret_turret_001" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/tank_fbx_Turret_turret_001.uasset" SILENT=true
+[2017.08.07-06.27.55:367][971]LogSavePackage: Save=9.06ms
+[2017.08.07-06.27.55:367][971]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/tank_fbx_Turret_turret_00119F77B9143B4AB54FE9254BDD3C527E9.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/tank_fbx_Turret_turret_001.uasset'
+[2017.08.07-06.27.55:369][971]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/tank_fbx_Turret_turret_001.uasset
+[2017.08.07-06.27.55:370][971]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/tank_green" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/tank_green.uasset" SILENT=true
+[2017.08.07-06.27.55:378][971]LogSavePackage: Save=2.72ms
+[2017.08.07-06.27.55:378][971]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/tank_greenBB781C014E673389E90C51A08A711330.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/tank_green.uasset'
+[2017.08.07-06.27.55:380][971]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/tank_green.uasset
+[2017.08.07-06.27.55:382][971]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/tank_green_001" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/tank_green_001.uasset" SILENT=true
+[2017.08.07-06.27.55:389][971]LogSavePackage: Save=2.71ms
+[2017.08.07-06.27.55:389][971]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/tank_green_00186E4DE904F652F76F057C9A1E6F37305.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/tank_green_001.uasset'
+[2017.08.07-06.27.55:391][971]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/tank_green_001.uasset
+[2017.08.07-06.27.55:393][971]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/tank_green_002" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/tank_green_002.uasset" SILENT=true
+[2017.08.07-06.27.55:400][971]LogSavePackage: Save=2.77ms
+[2017.08.07-06.27.55:400][971]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/tank_green_0029710D94D4CB44461FFB0E9B4804B1D85.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/tank_green_002.uasset'
+[2017.08.07-06.27.55:402][971]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/tank_green_002.uasset
+[2017.08.07-06.28.16:248][ 25]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/tank_fbx_Track_track_001" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/tank_fbx_Track_track_001.uasset" SILENT=true
+[2017.08.07-06.28.16:263][ 25]LogSavePackage: Save=9.23ms
+[2017.08.07-06.28.16:263][ 25]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/tank_fbx_Track_track_0018BE5BF8E44A3C3E7B34306BAEAB3CF4C.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/tank_fbx_Track_track_001.uasset'
+[2017.08.07-06.28.16:265][ 25]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/tank_fbx_Track_track_001.uasset
+[2017.08.07-06.28.22:768][735]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.07-06.28.22:825][735]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.07-06.28.22:833][735]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.07-06.28.22:865][735]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.07-06.28.23:587][780]MaterialEditorStats: Info Base pass shader: 84 instructions
+[2017.08.07-06.28.23:587][780]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.28.23:587][780]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.07-06.28.27:000][180]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.07-06.28.27:012][180]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.07-06.28.27:558][227]MaterialEditorStats: Info Base pass shader: 84 instructions
+[2017.08.07-06.28.27:558][227]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.28.27:558][227]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.07-06.28.29:139][410]LogMaterialEditor: Saving and Compiling material Tank_Material
+[2017.08.07-06.28.29:493][410]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.07-06.28.29:573][410]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.28.29:590][410]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.28.29:621][410]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Tank_Material, compiling. 
+[2017.08.07-06.28.29:949][410]TextureStreamingBuild:Display: Compiling optional shaders took 0.333 seconds.
+[2017.08.07-06.28.30:881][410]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_Material" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_Material.uasset" SILENT=true
+[2017.08.07-06.28.30:896][410]LogSavePackage: Save=9.78ms
+[2017.08.07-06.28.30:896][410]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/Tank_Material3D967CFF498D264A827408BB6E058F14.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_Material.uasset'
+[2017.08.07-06.28.30:898][410]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_Material.uasset
+[2017.08.07-06.28.30:990][410]MaterialEditorStats: Info Base pass shader: 84 instructions
+[2017.08.07-06.28.30:990][410]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.28.30:990][410]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.08.07-06.28.44:861][ 27]LogMaterialEditor: Saving and Compiling material Tank_Material
+[2017.08.07-06.28.44:922][ 27]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_Material" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_Material.uasset" SILENT=true
+[2017.08.07-06.28.44:928][ 27]LogSavePackage: Save=3.65ms
+[2017.08.07-06.28.44:928][ 27]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/Tank_Material61F6F766479B5CE5B440DF8B0D38503D.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_Material.uasset'
+[2017.08.07-06.28.44:929][ 27]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_Material.uasset
+[2017.08.07-06.28.49:539][567]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.07-06.28.49:551][567]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.07-06.28.50:108][614]MaterialEditorStats: Info Base pass shader: 84 instructions
+[2017.08.07-06.28.50:108][614]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.28.50:108][614]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.07-06.28.51:946][828]LogMaterialEditor: Saving and Compiling material Tank_Material
+[2017.08.07-06.28.52:301][828]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.07-06.28.52:378][828]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.28.52:395][828]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.28.52:423][828]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Tank_Material, compiling. 
+[2017.08.07-06.28.52:750][828]TextureStreamingBuild:Display: Compiling optional shaders took 0.330 seconds.
+[2017.08.07-06.28.53:705][828]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_Material" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_Material.uasset" SILENT=true
+[2017.08.07-06.28.53:717][828]LogSavePackage: Save=9.28ms
+[2017.08.07-06.28.53:717][828]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/Tank_Material2296136D4447B0A9F4F6BDB01AA53EBA.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_Material.uasset'
+[2017.08.07-06.28.53:719][828]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_Material.uasset
+[2017.08.07-06.28.53:816][828]MaterialEditorStats: Info Base pass shader: 84 instructions
+[2017.08.07-06.28.53:817][828]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.28.53:817][828]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.08.07-06.29.18:872][581]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_BP" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_BP.uasset" SILENT=true
+[2017.08.07-06.29.18:897][581]LogSavePackage: Save=19.78ms
+[2017.08.07-06.29.18:897][581]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/Tank_BP62FE4C954CF2C287B78CEB820A2F0FEF.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_BP.uasset'
+[2017.08.07-06.29.18:898][581]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_BP.uasset
+[2017.08.07-06.29.19:365][631]BlueprintLog: New page: Compile Tank_BP
+[2017.08.07-06.29.35:706][212]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BattleGround" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/BattleGround.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.07-06.29.36:338][212]LogSavePackage: Save=619.68ms
+[2017.08.07-06.29.36:339][212]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/BattleGround4F3BE27F4B06E8246CC0FC9B0BCB44B8.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/BattleGround.umap'
+[2017.08.07-06.29.36:343][212]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/BattleGround.umap
+[2017.08.07-06.29.36:358][212]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BattleGround_BuiltData" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/BattleGround_BuiltData.uasset" SILENT=true
+[2017.08.07-06.29.37:934][212]LogSavePackage: Save=1539.86ms
+[2017.08.07-06.29.37:934][212]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/BattleGround_BuiltDataDB09609A42F9C832D62787BB4EBB2AE2.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/BattleGround_BuiltData.uasset'
+[2017.08.07-06.29.37:940][212]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/BattleGround_BuiltData.uasset
+[2017.08.07-06.29.49:616][504]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.29.49:671][504]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.29.49:680][504]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.29.49:713][504]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.07-06.29.50:439][551]MaterialEditorStats: Info Base pass shader: 84 instructions
+[2017.08.07-06.29.50:439][551]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.29.50:440][551]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.07-06.29.53:937][964]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.29.54:351][  1]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.29.54:938][ 52]MaterialEditorStats: Info Base pass shader: 84 instructions
+[2017.08.07-06.29.54:938][ 52]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.29.54:938][ 52]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.07-06.29.59:694][589]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.29.59:702][589]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.07-06.30.00:261][638]MaterialEditorStats: Info Base pass shader: 84 instructions
+[2017.08.07-06.30.00:261][638]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.30.00:261][638]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.07-06.30.03:267][979]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.30.03:279][979]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.07-06.30.03:816][ 13]MaterialEditorStats: Info Base pass shader: 86 instructions
+[2017.08.07-06.30.03:817][ 13]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.30.03:817][ 13]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.07-06.30.08:159][525]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.30.08:170][525]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.07-06.30.08:739][574]MaterialEditorStats: Info Base pass shader: 86 instructions
+[2017.08.07-06.30.08:739][574]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.30.08:739][574]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.07-06.30.12:820][ 46]LogMaterialEditor: Saving and Compiling material Tank_Material
+[2017.08.07-06.30.13:175][ 46]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.30.13:254][ 46]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.30.13:271][ 46]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.30.13:308][ 46]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Tank_Material, compiling. 
+[2017.08.07-06.30.13:636][ 46]TextureStreamingBuild:Display: Compiling optional shaders took 0.333 seconds.
+[2017.08.07-06.30.14:576][ 46]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_Material" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_Material.uasset" SILENT=true
+[2017.08.07-06.30.14:588][ 46]LogSavePackage: Save=10.24ms
+[2017.08.07-06.30.14:588][ 46]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/Tank_MaterialFCEAF3B44CAAC7D96C3CDEAC683EF025.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_Material.uasset'
+[2017.08.07-06.30.14:591][ 46]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_Material.uasset
+[2017.08.07-06.30.14:685][ 46]MaterialEditorStats: Info Base pass shader: 86 instructions
+[2017.08.07-06.30.14:685][ 46]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.30.14:685][ 46]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.08.07-06.30.28:563][622]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.30.28:574][622]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.07-06.30.29:131][665]MaterialEditorStats: Info Base pass shader: 86 instructions
+[2017.08.07-06.30.29:132][665]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.30.29:132][665]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.07-06.30.30:530][812]LogMaterialEditor: Saving and Compiling material Tank_Material
+[2017.08.07-06.30.30:881][812]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.30.30:963][812]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.30.30:981][812]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.30.31:010][812]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Tank_Material, compiling. 
+[2017.08.07-06.30.31:338][812]TextureStreamingBuild:Display: Compiling optional shaders took 0.332 seconds.
+[2017.08.07-06.30.32:283][812]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_Material" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_Material.uasset" SILENT=true
+[2017.08.07-06.30.32:296][812]LogSavePackage: Save=10.30ms
+[2017.08.07-06.30.32:296][812]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/Tank_MaterialB5C475434BC3FAF06EB177A41134A5A6.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_Material.uasset'
+[2017.08.07-06.30.32:298][812]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_Material.uasset
+[2017.08.07-06.30.32:393][812]MaterialEditorStats: Info Base pass shader: 86 instructions
+[2017.08.07-06.30.32:393][812]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.30.32:393][812]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.08.07-06.30.52:041][ 41]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.30.52:728][100]MaterialEditorStats: Info Base pass shader: 84 instructions
+[2017.08.07-06.30.52:728][100]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.30.52:728][100]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.07-06.30.53:620][207]LogMaterialEditor: Saving and Compiling material Tank_Material
+[2017.08.07-06.30.53:972][207]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.30.54:052][207]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.30.54:069][207]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.30.54:103][207]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Tank_Material, compiling. 
+[2017.08.07-06.30.54:430][207]TextureStreamingBuild:Display: Compiling optional shaders took 0.332 seconds.
+[2017.08.07-06.30.55:359][207]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_Material" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_Material.uasset" SILENT=true
+[2017.08.07-06.30.55:372][207]LogSavePackage: Save=9.65ms
+[2017.08.07-06.30.55:372][207]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/Tank_MaterialE44A1EC94A03ED365ABE7CA36EE500B5.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_Material.uasset'
+[2017.08.07-06.30.55:374][207]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_Material.uasset
+[2017.08.07-06.30.55:470][207]MaterialEditorStats: Info Base pass shader: 84 instructions
+[2017.08.07-06.30.55:470][207]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.30.55:470][207]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.08.07-06.31.15:122][399]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.31.15:136][399]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.07-06.31.15:836][448]MaterialEditorStats: Info Base pass shader: 86 instructions
+[2017.08.07-06.31.15:836][448]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.31.15:836][448]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.07-06.31.16:633][542]LogMaterialEditor: Saving and Compiling material Tank_Material
+[2017.08.07-06.31.16:985][542]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.31.17:067][542]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.31.17:084][542]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.31.17:114][542]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Tank_Material, compiling. 
+[2017.08.07-06.31.17:442][542]TextureStreamingBuild:Display: Compiling optional shaders took 0.333 seconds.
+[2017.08.07-06.31.18:367][542]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_Material" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_Material.uasset" SILENT=true
+[2017.08.07-06.31.18:379][542]LogSavePackage: Save=10.06ms
+[2017.08.07-06.31.18:380][542]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/Tank_MaterialC0AEE2D34DE2FD83485640AC7D803144.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_Material.uasset'
+[2017.08.07-06.31.18:382][542]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_Material.uasset
+[2017.08.07-06.31.18:477][542]MaterialEditorStats: Info Base pass shader: 86 instructions
+[2017.08.07-06.31.18:478][542]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.31.18:478][542]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.08.07-06.31.24:262][162]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.31.24:276][162]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.07-06.31.24:833][212]MaterialEditorStats: Info Base pass shader: 86 instructions
+[2017.08.07-06.31.24:833][212]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.31.24:833][212]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.07-06.31.24:845][213]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.31.24:858][213]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.07-06.31.25:361][256]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.31.25:377][256]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.07-06.31.25:967][307]MaterialEditorStats: Info Base pass shader: 86 instructions
+[2017.08.07-06.31.25:967][307]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.31.25:967][307]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.07-06.31.27:725][512]LogMaterialEditor: Saving and Compiling material Tank_Material
+[2017.08.07-06.31.28:079][512]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.31.28:157][512]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.31.28:173][512]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.31.28:205][512]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Tank_Material, compiling. 
+[2017.08.07-06.31.28:522][512]TextureStreamingBuild:Display: Compiling optional shaders took 0.321 seconds.
+[2017.08.07-06.31.29:478][512]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_Material" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_Material.uasset" SILENT=true
+[2017.08.07-06.31.29:491][512]LogSavePackage: Save=10.38ms
+[2017.08.07-06.31.29:491][512]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/Tank_MaterialCEED4B234D22EEA294AB5FA79AED02D2.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_Material.uasset'
+[2017.08.07-06.31.29:493][512]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_Material.uasset
+[2017.08.07-06.31.29:589][512]MaterialEditorStats: Info Base pass shader: 86 instructions
+[2017.08.07-06.31.29:589][512]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.31.29:589][512]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.08.07-06.31.37:049][214]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.31.37:059][214]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.07-06.31.37:673][263]MaterialEditorStats: Info Base pass shader: 86 instructions
+[2017.08.07-06.31.37:673][263]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.31.37:673][263]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.07-06.31.38:880][407]LogMaterialEditor: Saving and Compiling material Tank_Material
+[2017.08.07-06.31.39:234][407]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.31.39:317][407]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.31.39:335][407]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.31.39:364][407]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Tank_Material, compiling. 
+[2017.08.07-06.31.39:692][407]TextureStreamingBuild:Display: Compiling optional shaders took 0.332 seconds.
+[2017.08.07-06.31.40:596][407]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_Material" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_Material.uasset" SILENT=true
+[2017.08.07-06.31.40:609][407]LogSavePackage: Save=10.37ms
+[2017.08.07-06.31.40:609][407]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/Tank_MaterialB087255B4AA8DD84F4791685E0194B39.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_Material.uasset'
+[2017.08.07-06.31.40:611][407]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_Material.uasset
+[2017.08.07-06.31.40:707][407]MaterialEditorStats: Info Base pass shader: 86 instructions
+[2017.08.07-06.31.40:707][407]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.31.40:707][407]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.08.07-06.31.48:562][340]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.31.48:572][340]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.07-06.31.49:184][387]MaterialEditorStats: Info Base pass shader: 86 instructions
+[2017.08.07-06.31.49:184][387]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.31.49:184][387]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.07-06.31.54:070][961]LogMaterialEditor: Saving and Compiling material Tank_Material
+[2017.08.07-06.31.54:422][961]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.31.54:504][961]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.31.54:519][961]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.31.54:547][961]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Tank_Material, compiling. 
+[2017.08.07-06.31.54:873][961]TextureStreamingBuild:Display: Compiling optional shaders took 0.331 seconds.
+[2017.08.07-06.31.55:811][961]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_Material" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_Material.uasset" SILENT=true
+[2017.08.07-06.31.55:824][961]LogSavePackage: Save=10.72ms
+[2017.08.07-06.31.55:824][961]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/Tank_Material5CF073B34906537C9C41D381FBF5C472.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_Material.uasset'
+[2017.08.07-06.31.55:827][961]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_Material.uasset
+[2017.08.07-06.31.55:922][961]MaterialEditorStats: Info Base pass shader: 86 instructions
+[2017.08.07-06.31.55:922][961]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.31.55:922][961]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.08.07-06.32.10:585][656]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.32.10:596][656]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.07-06.32.11:150][693]MaterialEditorStats: Info Base pass shader: 86 instructions
+[2017.08.07-06.32.11:150][693]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.32.11:150][693]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.07-06.32.14:193][ 45]LogMaterialEditor: Saving and Compiling material Tank_Material
+[2017.08.07-06.32.14:546][ 45]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.32.14:629][ 45]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.32.14:648][ 45]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.32.14:676][ 45]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Tank_Material, compiling. 
+[2017.08.07-06.32.15:003][ 45]TextureStreamingBuild:Display: Compiling optional shaders took 0.330 seconds.
+[2017.08.07-06.32.15:956][ 45]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_Material" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_Material.uasset" SILENT=true
+[2017.08.07-06.32.15:968][ 45]LogSavePackage: Save=9.54ms
+[2017.08.07-06.32.15:968][ 45]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/Tank_Material1A7F422A473C12988D205C9FA69B6D10.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_Material.uasset'
+[2017.08.07-06.32.15:971][ 45]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_Material.uasset
+[2017.08.07-06.32.16:068][ 45]MaterialEditorStats: Info Base pass shader: 86 instructions
+[2017.08.07-06.32.16:068][ 45]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.32.16:068][ 45]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.08.07-06.32.20:236][507]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.32.20:786][558]MaterialEditorStats: Info Base pass shader: 86 instructions
+[2017.08.07-06.32.20:786][558]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.32.20:787][558]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.07-06.32.23:507][849]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.32.23:519][849]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.07-06.32.24:085][886]MaterialEditorStats: Info Base pass shader: 86 instructions
+[2017.08.07-06.32.24:085][886]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.32.24:085][886]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.07-06.32.25:822][ 93]LogMaterialEditor: Saving and Compiling material Tank_Material
+[2017.08.07-06.32.26:174][ 93]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.32.26:254][ 93]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.32.26:272][ 93]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.32.26:300][ 93]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Tank_Material, compiling. 
+[2017.08.07-06.32.26:627][ 93]TextureStreamingBuild:Display: Compiling optional shaders took 0.332 seconds.
+[2017.08.07-06.32.27:527][ 93]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_Material" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_Material.uasset" SILENT=true
+[2017.08.07-06.32.27:539][ 93]LogSavePackage: Save=10.39ms
+[2017.08.07-06.32.27:540][ 93]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/Tank_MaterialE8D08019407E23B2510D80A055FD2096.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_Material.uasset'
+[2017.08.07-06.32.27:542][ 93]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_Material.uasset
+[2017.08.07-06.32.27:638][ 93]MaterialEditorStats: Info Base pass shader: 86 instructions
+[2017.08.07-06.32.27:638][ 93]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.32.27:638][ 93]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.08.07-06.33.04:336][426]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.33.04:343][426]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.08.07-06.33.05:111][501]MaterialEditorStats: Info Base pass shader: 86 instructions
+[2017.08.07-06.33.05:111][501]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.33.05:111][501]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.07-06.33.08:086][850]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.33.08:095][850]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.08.07-06.33.08:686][901]MaterialEditorStats: Info Base pass shader: 86 instructions
+[2017.08.07-06.33.08:686][901]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.33.08:686][901]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.07-06.33.13:493][429]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.33.14:084][475]MaterialEditorStats: Info Base pass shader: 86 instructions
+[2017.08.07-06.33.14:084][475]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.33.14:084][475]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.07-06.33.15:055][579]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.33.15:064][579]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.08.07-06.33.15:593][612]MaterialEditorStats: Info Base pass shader: 88 instructions
+[2017.08.07-06.33.15:593][612]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.33.15:593][612]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.07-06.33.17:330][819]LogMaterialEditor: Saving and Compiling material Tank_Material
+[2017.08.07-06.33.17:683][819]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.33.17:762][819]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.33.17:780][819]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.33.17:810][819]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Tank_Material, compiling. 
+[2017.08.07-06.33.18:158][819]TextureStreamingBuild:Display: Compiling optional shaders took 0.354 seconds.
+[2017.08.07-06.33.19:110][819]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_Material" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_Material.uasset" SILENT=true
+[2017.08.07-06.33.19:124][819]LogSavePackage: Save=10.51ms
+[2017.08.07-06.33.19:124][819]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/Tank_Material38C1487C4997D1207AF30C9C85B7CBC2.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_Material.uasset'
+[2017.08.07-06.33.19:126][819]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_Material.uasset
+[2017.08.07-06.33.19:221][819]MaterialEditorStats: Info Base pass shader: 88 instructions
+[2017.08.07-06.33.19:221][819]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.33.19:221][819]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.08.07-06.33.29:380][ 14]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.33.29:395][ 14]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.08.07-06.33.29:956][ 61]MaterialEditorStats: Info Base pass shader: 88 instructions
+[2017.08.07-06.33.29:956][ 61]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.33.29:956][ 61]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.07-06.33.31:685][262]LogMaterialEditor: Saving and Compiling material Tank_Material
+[2017.08.07-06.33.32:037][262]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.33.32:118][262]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.33.32:137][262]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.33.32:170][262]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Tank_Material, compiling. 
+[2017.08.07-06.33.32:476][262]TextureStreamingBuild:Display: Compiling optional shaders took 0.310 seconds.
+[2017.08.07-06.33.33:451][262]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_Material" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_Material.uasset" SILENT=true
+[2017.08.07-06.33.33:466][262]LogSavePackage: Save=10.69ms
+[2017.08.07-06.33.33:466][262]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/Tank_Material8DCF4EB64F72E36E9166FF93A763818D.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_Material.uasset'
+[2017.08.07-06.33.33:468][262]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_Material.uasset
+[2017.08.07-06.33.33:568][262]MaterialEditorStats: Info Base pass shader: 88 instructions
+[2017.08.07-06.33.33:568][262]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.33.33:568][262]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.08.07-06.33.37:822][761]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.33.37:834][761]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.08.07-06.33.38:414][806]MaterialEditorStats: Info Base pass shader: 88 instructions
+[2017.08.07-06.33.38:414][806]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.33.38:414][806]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.07-06.33.40:954][109]LogMaterialEditor: Saving and Compiling material Tank_Material
+[2017.08.07-06.33.41:308][109]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.33.41:387][109]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.33.41:404][109]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.33.41:440][109]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Tank_Material, compiling. 
+[2017.08.07-06.33.41:758][109]TextureStreamingBuild:Display: Compiling optional shaders took 0.322 seconds.
+[2017.08.07-06.33.42:728][109]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_Material" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_Material.uasset" SILENT=true
+[2017.08.07-06.33.42:740][109]LogSavePackage: Save=9.95ms
+[2017.08.07-06.33.42:740][109]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/Tank_Material5BBA1CC64D03C64FA0DA0B9367422A5D.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_Material.uasset'
+[2017.08.07-06.33.42:743][109]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_Material.uasset
+[2017.08.07-06.33.42:839][109]MaterialEditorStats: Info Base pass shader: 88 instructions
+[2017.08.07-06.33.42:839][109]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.33.42:839][109]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.08.07-06.33.44:992][356]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.33.45:000][356]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.08.07-06.33.45:572][406]MaterialEditorStats: Info Base pass shader: 88 instructions
+[2017.08.07-06.33.45:573][406]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.33.45:573][406]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.07-06.33.46:054][463]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.33.46:066][463]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.08.07-06.33.46:644][514]MaterialEditorStats: Info Base pass shader: 88 instructions
+[2017.08.07-06.33.46:644][514]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.33.46:644][514]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.07-06.33.47:251][586]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.33.47:265][586]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.08.07-06.33.47:834][636]MaterialEditorStats: Info Base pass shader: 88 instructions
+[2017.08.07-06.33.47:834][636]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.33.47:834][636]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.07-06.33.50:259][926]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.33.50:270][926]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.08.07-06.33.50:836][976]MaterialEditorStats: Info Base pass shader: 88 instructions
+[2017.08.07-06.33.50:836][976]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.33.50:836][976]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.07-06.33.52:915][225]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.33.52:928][225]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.08.07-06.33.53:406][266]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.33.53:417][266]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.08.07-06.33.53:819][300]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.33.53:836][300]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.08.07-06.33.54:277][337]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.33.54:295][337]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.08.07-06.33.54:665][368]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.33.54:678][368]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.08.07-06.33.54:925][388]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.33.54:939][388]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.08.07-06.33.55:591][443]MaterialEditorStats: Info Base pass shader: 88 instructions
+[2017.08.07-06.33.55:591][443]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.33.55:591][443]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.07-06.33.55:603][444]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.33.55:616][444]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.08.07-06.33.56:177][492]MaterialEditorStats: Info Base pass shader: 88 instructions
+[2017.08.07-06.33.56:177][492]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.33.56:177][492]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.07-06.33.56:916][580]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.33.56:927][580]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.08.07-06.33.57:487][630]MaterialEditorStats: Info Base pass shader: 88 instructions
+[2017.08.07-06.33.57:487][630]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.33.57:487][630]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.07-06.33.59:583][881]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.33.59:597][881]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.08.07-06.34.00:159][930]MaterialEditorStats: Info Base pass shader: 88 instructions
+[2017.08.07-06.34.00:159][930]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.34.00:159][930]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.07-06.34.02:172][171]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.34.02:182][171]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.08.07-06.34.02:743][220]MaterialEditorStats: Info Base pass shader: 88 instructions
+[2017.08.07-06.34.02:743][220]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.34.02:743][220]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.07-06.34.03:345][292]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.34.03:355][292]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.08.07-06.34.03:933][342]MaterialEditorStats: Info Base pass shader: 88 instructions
+[2017.08.07-06.34.03:934][342]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.34.03:934][342]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.07-06.34.08:375][798]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.34.08:933][845]MaterialEditorStats: Info Base pass shader: 86 instructions
+[2017.08.07-06.34.08:934][845]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.34.08:934][845]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.07-06.34.13:695][381]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.34.14:231][427]MaterialEditorStats: Info Base pass shader: 84 instructions
+[2017.08.07-06.34.14:231][427]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.34.14:231][427]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.07-06.34.16:769][725]LogMaterialEditor: Saving and Compiling material Tank_Material
+[2017.08.07-06.34.17:123][725]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.34.17:200][725]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.34.17:217][725]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.34.17:245][725]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Tank_Material, compiling. 
+[2017.08.07-06.34.17:573][725]TextureStreamingBuild:Display: Compiling optional shaders took 0.332 seconds.
+[2017.08.07-06.34.18:492][725]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_Material" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_Material.uasset" SILENT=true
+[2017.08.07-06.34.18:505][725]LogSavePackage: Save=10.10ms
+[2017.08.07-06.34.18:505][725]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/Tank_Material00DE128E4F7FD866699FB9B9991DFF42.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_Material.uasset'
+[2017.08.07-06.34.18:507][725]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_Material.uasset
+[2017.08.07-06.34.18:603][725]MaterialEditorStats: Info Base pass shader: 84 instructions
+[2017.08.07-06.34.18:603][725]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.34.18:603][725]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.08.07-06.34.21:144][ 14]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.34.21:154][ 14]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.07-06.34.21:680][ 45]MaterialEditorStats: Info Base pass shader: 86 instructions
+[2017.08.07-06.34.21:680][ 45]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.34.21:680][ 45]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.07-06.34.22:270][115]LogMaterialEditor: Saving and Compiling material Tank_Material
+[2017.08.07-06.34.22:623][115]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.34.22:699][115]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.34.22:716][115]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.34.22:744][115]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Tank_Material, compiling. 
+[2017.08.07-06.34.23:071][115]TextureStreamingBuild:Display: Compiling optional shaders took 0.332 seconds.
+[2017.08.07-06.34.24:000][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_Material" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_Material.uasset" SILENT=true
+[2017.08.07-06.34.24:013][115]LogSavePackage: Save=10.51ms
+[2017.08.07-06.34.24:013][115]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/Tank_MaterialA82D031748E0C001B36B7996C8A87A46.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_Material.uasset'
+[2017.08.07-06.34.24:015][115]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_Material.uasset
+[2017.08.07-06.34.24:110][115]MaterialEditorStats: Info Base pass shader: 86 instructions
+[2017.08.07-06.34.24:110][115]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.34.24:110][115]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.08.07-06.34.28:796][629]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.34.28:811][629]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.08.07-06.34.29:335][648]MaterialEditorStats: Info Base pass shader: 87 instructions
+[2017.08.07-06.34.29:335][648]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.34.29:335][648]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.07-06.34.30:505][787]LogMaterialEditor: Saving and Compiling material Tank_Material
+[2017.08.07-06.34.30:860][787]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.34.30:943][787]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.34.30:960][787]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.34.30:995][787]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Tank_Material, compiling. 
+[2017.08.07-06.34.31:323][787]TextureStreamingBuild:Display: Compiling optional shaders took 0.332 seconds.
+[2017.08.07-06.34.32:263][787]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_Material" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_Material.uasset" SILENT=true
+[2017.08.07-06.34.32:276][787]LogSavePackage: Save=10.59ms
+[2017.08.07-06.34.32:276][787]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/Tank_Material512EBC7F40E0DA4ACBC615A3A2FC3A8B.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_Material.uasset'
+[2017.08.07-06.34.32:278][787]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_Material.uasset
+[2017.08.07-06.34.32:374][787]MaterialEditorStats: Info Base pass shader: 87 instructions
+[2017.08.07-06.34.32:374][787]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.34.32:374][787]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.08.07-06.34.45:236][278]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.34.45:773][319]MaterialEditorStats: Info Base pass shader: 86 instructions
+[2017.08.07-06.34.45:773][319]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.34.45:773][319]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.07-06.34.48:640][650]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.34.48:652][650]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.08.07-06.34.49:178][688]MaterialEditorStats: Info Base pass shader: 87 instructions
+[2017.08.07-06.34.49:178][688]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.34.49:178][688]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.07-06.34.50:995][899]LogMaterialEditor: Saving and Compiling material Tank_Material
+[2017.08.07-06.34.51:350][899]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.34.51:430][899]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.34.51:448][899]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.34.51:482][899]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Tank_Material, compiling. 
+[2017.08.07-06.34.51:810][899]TextureStreamingBuild:Display: Compiling optional shaders took 0.332 seconds.
+[2017.08.07-06.34.52:750][899]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_Material" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_Material.uasset" SILENT=true
+[2017.08.07-06.34.52:763][899]LogSavePackage: Save=10.65ms
+[2017.08.07-06.34.52:763][899]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/Tank_MaterialA7452B6B44484B35D85446B5D67684EF.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_Material.uasset'
+[2017.08.07-06.34.52:765][899]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_Material.uasset
+[2017.08.07-06.34.52:861][899]MaterialEditorStats: Info Base pass shader: 87 instructions
+[2017.08.07-06.34.52:861][899]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.34.52:861][899]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.08.07-06.34.58:772][569]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.34.58:786][569]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.08.07-06.34.59:333][607]MaterialEditorStats: Info Base pass shader: 88 instructions
+[2017.08.07-06.34.59:333][607]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.34.59:333][607]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.07-06.35.01:451][836]LogMaterialEditor: Saving and Compiling material Tank_Material
+[2017.08.07-06.35.01:804][836]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.35.01:888][836]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.35.01:907][836]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.35.01:943][836]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Tank_Material, compiling. 
+[2017.08.07-06.35.02:290][836]TextureStreamingBuild:Display: Compiling optional shaders took 0.352 seconds.
+[2017.08.07-06.35.03:250][836]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_Material" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_Material.uasset" SILENT=true
+[2017.08.07-06.35.03:263][836]LogSavePackage: Save=10.63ms
+[2017.08.07-06.35.03:263][836]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/Tank_MaterialE6695DC6452BFFBE3E06E78C2D575349.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_Material.uasset'
+[2017.08.07-06.35.03:265][836]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_Material.uasset
+[2017.08.07-06.35.03:361][836]MaterialEditorStats: Info Base pass shader: 88 instructions
+[2017.08.07-06.35.03:361][836]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.35.03:361][836]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.08.07-06.35.07:112][261]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.35.07:687][313]MaterialEditorStats: Info Base pass shader: 87 instructions
+[2017.08.07-06.35.07:687][313]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.35.07:687][313]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.07-06.35.10:160][597]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.35.10:715][646]MaterialEditorStats: Info Base pass shader: 86 instructions
+[2017.08.07-06.35.10:715][646]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.35.10:715][646]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.07-06.35.15:626][233]LogMaterialEditor: Saving and Compiling material Tank_Material
+[2017.08.07-06.35.15:981][233]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.35.16:061][233]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.35.16:079][233]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.35.16:107][233]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Tank_Material, compiling. 
+[2017.08.07-06.35.16:444][233]TextureStreamingBuild:Display: Compiling optional shaders took 0.341 seconds.
+[2017.08.07-06.35.17:389][233]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_Material" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_Material.uasset" SILENT=true
+[2017.08.07-06.35.17:403][233]LogSavePackage: Save=10.87ms
+[2017.08.07-06.35.17:403][233]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/Tank_Material5A6A19334867C250EC2C43A6B74DC184.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_Material.uasset'
+[2017.08.07-06.35.17:405][233]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_Material.uasset
+[2017.08.07-06.35.17:506][233]MaterialEditorStats: Info Base pass shader: 86 instructions
+[2017.08.07-06.35.17:506][233]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.35.17:506][233]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.08.07-06.35.27:757][419]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.35.28:339][464]MaterialEditorStats: Info Base pass shader: 84 instructions
+[2017.08.07-06.35.28:339][464]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.35.28:339][464]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.07-06.35.30:839][729]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.35.30:852][729]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.08.07-06.35.31:397][769]MaterialEditorStats: Info Base pass shader: 86 instructions
+[2017.08.07-06.35.31:397][769]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.35.31:397][769]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.07-06.35.37:723][486]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.35.38:293][522]MaterialEditorStats: Info Base pass shader: 84 instructions
+[2017.08.07-06.35.38:293][522]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.35.38:294][522]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.07-06.35.39:681][671]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.35.40:225][720]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.08.07-06.35.40:225][720]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.35.40:225][720]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.07-06.35.41:558][867]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.35.41:566][867]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.07-06.35.42:198][907]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.08.07-06.35.42:198][907]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.35.42:198][907]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.07-06.35.45:783][288]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.35.45:794][288]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.08.07-06.35.46:342][332]MaterialEditorStats: Info Base pass shader: 86 instructions
+[2017.08.07-06.35.46:343][332]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.35.46:343][332]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.07-06.35.47:329][438]LogMaterialEditor: Saving and Compiling material Tank_Material
+[2017.08.07-06.35.47:682][438]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.35.47:762][438]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.35.47:781][438]LogMaterial: Missing cached shader map for material Tank_Material, compiling. 
+[2017.08.07-06.35.47:811][438]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Tank_Material, compiling. 
+[2017.08.07-06.35.48:138][438]TextureStreamingBuild:Display: Compiling optional shaders took 0.332 seconds.
+[2017.08.07-06.35.49:062][438]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_Material" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_Material.uasset" SILENT=true
+[2017.08.07-06.35.49:075][438]LogSavePackage: Save=10.38ms
+[2017.08.07-06.35.49:075][438]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/Tank_Material45438E1E41A3DB61016979A6F9D97E36.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_Material.uasset'
+[2017.08.07-06.35.49:077][438]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/Tank/Tank_Material.uasset
+[2017.08.07-06.35.49:173][438]MaterialEditorStats: Info Base pass shader: 86 instructions
+[2017.08.07-06.35.49:174][438]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.07-06.35.49:174][438]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.08.07-06.36.28:223][811]LogEditorViewport: Clicking on Actor (LMB): Tank_BP_C (Tank_BP)
+[2017.08.07-06.39.36:309][675]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BattleGround" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/Autosaves/Game/BattleGround_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.08.07-06.39.36:959][675]LogSavePackage: Save=623.11ms
+[2017.08.07-06.39.36:959][675]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/BattleGround_Auto1DB71188941729E99D3EC11BE26A63090.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/Autosaves/Game/BattleGround_Auto1.umap'
+[2017.08.07-06.39.36:973][675]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/Autosaves/Game/BattleGround_Auto1.umap
+[2017.08.07-06.39.36:975][675]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/BattleGround' took 0.684
+[2017.08.07-06.39.36:975][675]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.684
+[2017.08.07-06.45.50:690][ 80]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BattleGround" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/BattleGround.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.07-06.45.51:351][ 80]LogSavePackage: Save=628.33ms
+[2017.08.07-06.45.51:351][ 80]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/BattleGroundB17153EC4F6906AFB0AF5BB80DC67469.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/BattleGround.umap'
+[2017.08.07-06.45.51:356][ 80]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/BattleGround.umap
+[2017.08.07-06.45.51:377][ 80]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BattleGround_BuiltData" FILE="C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/BattleGround_BuiltData.uasset" SILENT=true
+[2017.08.07-06.45.52:954][ 80]LogSavePackage: Save=1539.60ms
+[2017.08.07-06.45.52:954][ 80]LogSavePackage: Moving 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Saved/BattleGround_BuiltDataC4872C5E4BDD9337F9281195566808FF.tmp' to 'C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/BattleGround_BuiltData.uasset'
+[2017.08.07-06.45.52:959][ 80]LogSavePackage:Display: Finished SavePackage C:/Users/Tobyn/Documents/Unreal-Engine---Tanks/BattleTank/Content/BattleGround_BuiltData.uasset
